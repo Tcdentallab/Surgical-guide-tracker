@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TC Dental Lab - Surgical Guide Tracker v7</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
+
 <style>
 :root {
   --bg: #f4f1ec;
@@ -333,8 +333,8 @@ textarea{resize:vertical;min-height:52px;}
   <div class="logo" style="font-size:13px;color:rgba(255,255,255,.6);font-family:'IBM Plex Mono',monospace;font-weight:400;">Surgical Guide Tracker</div>
   <div class="hdr-div"></div>
   <nav class="hdr-nav">
-    <div class="hdr-tab active" id="tab-cases" onclick="switchView('cases')">ð Cases</div>
-    <div class="hdr-tab" id="tab-doctors" onclick="switchView('doctors')">ð¥ Doctors</div>
+    <div class="hdr-tab active" id="tab-cases" onclick="switchView('cases')">Ã°ÂÂÂ Cases</div>
+    <div class="hdr-tab" id="tab-doctors" onclick="switchView('doctors')">Ã°ÂÂÂ¥ Doctors</div>
   </nav>
   <div class="sync-badge local" id="syncBadge">
     <div class="sync-dot"></div>
@@ -343,11 +343,11 @@ textarea{resize:vertical;min-height:52px;}
   <div class="hdr-right">
     <span class="hdr-cnt" id="hdrCnt">0 cases</span>
     <div class="gcal-badge off" id="gcalBadge" onclick="openConfig('gcal')" title="Google Calendar sync">
-      <span>ð</span><span id="gcalLabel">Google Cal</span>
+      <span>Ã°ÂÂÂ</span><span id="gcalLabel">Google Cal</span>
     </div>
     <div class="hdr-div"></div>
-    <button class="btn btn-ghost-w btn-sm" onclick="openConfig()">â GitHub Settings</button>
-    <button class="btn btn-ghost-w btn-sm" onclick="openConfig('import')">â Import CSV</button>
+    <button class="btn btn-ghost-w btn-sm" onclick="openConfig()">Ã¢ÂÂ GitHub Settings</button>
+    <button class="btn btn-ghost-w btn-sm" onclick="openConfig('import')">Ã¢ÂÂ Import CSV</button>
     <button class="btn btn-gold btn-sm" id="hdrAddBtn" onclick="openNew()">+ New Case</button>
   </div>
 </div>
@@ -365,7 +365,7 @@ textarea{resize:vertical;min-height:52px;}
   <button class="fp" onclick="filt('scan-appl',this)">Scan Appliance</button>
   <button class="fp" onclick="filt('long',this)">4+ Months Out</button>
   <div class="srch-wrap">
-    <span class="srch-ico">ð</span>
+    <span class="srch-ico">Ã°ÂÂÂ</span>
     <input class="srch" type="text" placeholder="Patient, doctor, ID..." id="srchBox" oninput="render()">
   </div>
 </div>
@@ -408,20 +408,20 @@ textarea{resize:vertical;min-height:52px;}
 <div class="modal config-modal">
   <div class="mhd">
     <div>
-      <div class="mhd-title">â Settings</div>
+      <div class="mhd-title">Ã¢ÂÂ Settings</div>
       <div class="mhd-sub">Connect GitHub to share data across your team</div>
     </div>
-    <button class="xbtn" onclick="closeConfig()">â</button>
+    <button class="xbtn" onclick="closeConfig()">Ã¢ÂÂ</button>
   </div>
   <div class="mbody">
 
     <!-- TABS -->
     <div style="display:flex;gap:4px;margin-bottom:18px;background:var(--s2);padding:3px;border-radius:6px;">
-      <button class="btn" id="tab-connect" style="flex:1;background:var(--navy);color:#fff;font-size:10px;" onclick="showTab('connect')">ð GitHub</button>
-      <button class="btn btn-ghost" id="tab-gcal" style="flex:1;font-size:10px;" onclick="showTab('gcal')">ð Google Cal</button>
-      <button class="btn btn-ghost" id="tab-import" style="flex:1;font-size:10px;" onclick="showTab('import')">â Import CSV</button>
-      <button class="btn btn-ghost" id="tab-export" style="flex:1;font-size:10px;" onclick="showTab('export')">â Export</button>
-      <button class="btn btn-ghost" id="tab-setup" style="flex:1;font-size:10px;" onclick="showTab('setup')">ð Setup Guide</button>
+      <button class="btn" id="tab-connect" style="flex:1;background:var(--navy);color:#fff;font-size:10px;" onclick="showTab('connect')">Ã°ÂÂÂ GitHub</button>
+      <button class="btn btn-ghost" id="tab-gcal" style="flex:1;font-size:10px;" onclick="showTab('gcal')">Ã°ÂÂÂ Google Cal</button>
+      <button class="btn btn-ghost" id="tab-import" style="flex:1;font-size:10px;" onclick="showTab('import')">Ã¢ÂÂ Import CSV</button>
+      <button class="btn btn-ghost" id="tab-export" style="flex:1;font-size:10px;" onclick="showTab('export')">Ã¢ÂÂ Export</button>
+      <button class="btn btn-ghost" id="tab-setup" style="flex:1;font-size:10px;" onclick="showTab('setup')">Ã°ÂÂÂ Setup Guide</button>
     </div>
 
     <!-- GITHUB TAB -->
@@ -452,8 +452,8 @@ textarea{resize:vertical;min-height:52px;}
         <label>Personal Access Token (classic)</label>
         <input id="cfg_token" type="password" placeholder="ghp_..." autocomplete="off">
         <div class="config-hint">
-          Go to <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a> â
-          give it a name â check <strong>repo</strong> scope â Generate token â paste here.
+          Go to <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a> Ã¢ÂÂ
+          give it a name Ã¢ÂÂ check <strong>repo</strong> scope Ã¢ÂÂ Generate token Ã¢ÂÂ paste here.
           Each team member creates their own token. Tokens are stored in your browser only.
         </div>
       </div>
@@ -469,7 +469,7 @@ textarea{resize:vertical;min-height:52px;}
     <div id="tab-gcal-body" style="display:none;">
       <div class="config-status" id="gcalStatus"></div>
       <div style="background:var(--blue-lt);border:1px solid rgba(42,85,160,.2);border-radius:7px;padding:11px 13px;margin-bottom:14px;">
-        <div style="font-size:11px;font-weight:600;color:var(--blue);margin-bottom:3px;">ð What syncs to Google Calendar</div>
+        <div style="font-size:11px;font-weight:600;color:var(--blue);margin-bottom:3px;">Ã°ÂÂÂ What syncs to Google Calendar</div>
         <div style="font-size:10px;color:#3a65b0;line-height:1.6;">
           On every case save: <strong>Records Appointment</strong> (teal) and <strong>Surgery Date</strong> (red) are created or updated as all-day events with patient name, doctor, case ID, and notes.
         </div>
@@ -479,7 +479,7 @@ textarea{resize:vertical;min-height:52px;}
           <div class="config-step-num">1</div>
           <div class="config-step-body">
             <div class="config-step-title">Create OAuth credentials</div>
-            <div class="config-step-desc">Go to <a href="https://console.cloud.google.com" target="_blank">console.cloud.google.com</a> â new project â enable Google Calendar API â Credentials â OAuth 2.0 Client ID (Web app type) â add your GitHub Pages URL as an authorized origin.</div>
+            <div class="config-step-desc">Go to <a href="https://console.cloud.google.com" target="_blank">console.cloud.google.com</a> Ã¢ÂÂ new project Ã¢ÂÂ enable Google Calendar API Ã¢ÂÂ Credentials Ã¢ÂÂ OAuth 2.0 Client ID (Web app type) Ã¢ÂÂ add your GitHub Pages URL as an authorized origin.</div>
           </div>
         </div>
         <div class="config-step">
@@ -498,23 +498,23 @@ textarea{resize:vertical;min-height:52px;}
         <input id="gcal_calId" placeholder="primary" value="primary">
       </div>
       <div style="display:flex;gap:8px;margin-top:6px;flex-wrap:wrap;">
-        <button class="btn btn-navy" onclick="gcalAuthorize()">ð Authorize with Google</button>
+        <button class="btn btn-navy" onclick="gcalAuthorize()">Ã°ÂÂÂ Authorize with Google</button>
         <button class="btn btn-ghost" onclick="saveGcalConfig()">Save Settings</button>
         <button class="btn btn-danger btn-sm" onclick="clearGcalConfig()">Disconnect</button>
       </div>
       <div id="gcalAuthStatus" style="margin-top:8px;font-size:10px;color:var(--muted);"></div>
       <div style="margin-top:14px;border-top:1px solid var(--border);padding-top:12px;">
         <div style="font-size:10px;font-weight:600;margin-bottom:6px;">Push all existing cases to calendar</div>
-        <button class="btn btn-ghost" onclick="gcalSyncAll()">â Sync all cases now</button>
+        <button class="btn btn-ghost" onclick="gcalSyncAll()">Ã¢ÂÂ Sync all cases now</button>
       </div>
     </div>
 
     <!-- IMPORT TAB -->
     <div id="tab-import-body" style="display:none;">
       <p style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6;">Import cases from a CSV. First row must be headers. Minimum required: <code>Patient Name</code>.</p>
-      <div style="margin-bottom:12px;"><button class="btn btn-ghost" onclick="downloadTemplate()">â Download CSV Template</button></div>
+      <div style="margin-bottom:12px;"><button class="btn btn-ghost" onclick="downloadTemplate()">Ã¢ÂÂ Download CSV Template</button></div>
       <div class="import-area" onclick="document.getElementById('csvFileInput').click()">
-        <div class="import-area-icon">ð</div>
+        <div class="import-area-icon">Ã°ÂÂÂ</div>
         <div class="import-area-title">Click to select a CSV file</div>
         <div class="import-area-sub">or drag and drop here</div>
       </div>
@@ -533,9 +533,9 @@ textarea{resize:vertical;min-height:52px;}
     <div id="tab-export-body" style="display:none;">
       <p style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.6;">Download your data anytime as a backup or to open in Excel / Google Sheets.</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap;">
-        <button class="btn btn-navy" onclick="exportCSV()">â Export Cases as CSV</button>
-        <button class="btn btn-ghost" onclick="exportJSON()">â Export Cases as JSON</button>
-        <button class="btn btn-ghost" onclick="exportDoctorsCSV()">â Export Doctors as CSV</button>
+        <button class="btn btn-navy" onclick="exportCSV()">Ã¢ÂÂ Export Cases as CSV</button>
+        <button class="btn btn-ghost" onclick="exportJSON()">Ã¢ÂÂ Export Cases as JSON</button>
+        <button class="btn btn-ghost" onclick="exportDoctorsCSV()">Ã¢ÂÂ Export Doctors as CSV</button>
       </div>
       <div style="margin-top:14px;padding:10px 12px;background:var(--s2);border-radius:6px;font-size:10px;color:var(--muted);line-height:1.6;">
         <strong style="color:var(--text);">Tip:</strong> If you're connected to GitHub, your data is already version-controlled in the repo - every save is a backup with full history.
@@ -559,35 +559,35 @@ textarea{resize:vertical;min-height:52px;}
           <div class="config-step-num">2</div>
           <div class="config-step-body">
             <div class="config-step-title">Create a new public repository</div>
-            <div class="config-step-desc">Go to <a href="https://github.com/new" target="_blank">github.com/new</a> â name it <code>surgical-guide-tracker</code> â set to Public â check "Add a README file" â Create repository.</div>
+            <div class="config-step-desc">Go to <a href="https://github.com/new" target="_blank">github.com/new</a> Ã¢ÂÂ name it <code>surgical-guide-tracker</code> Ã¢ÂÂ set to Public Ã¢ÂÂ check "Add a README file" Ã¢ÂÂ Create repository.</div>
           </div>
         </div>
         <div class="config-step">
           <div class="config-step-num">3</div>
           <div class="config-step-body">
             <div class="config-step-title">Upload this HTML file</div>
-            <div class="config-step-desc">In your new repo â click "Add file" â "Upload files" â drag this HTML file in â rename it <code>index.html</code> â Commit changes.</div>
+            <div class="config-step-desc">In your new repo Ã¢ÂÂ click "Add file" Ã¢ÂÂ "Upload files" Ã¢ÂÂ drag this HTML file in Ã¢ÂÂ rename it <code>index.html</code> Ã¢ÂÂ Commit changes.</div>
           </div>
         </div>
         <div class="config-step">
           <div class="config-step-num">4</div>
           <div class="config-step-body">
             <div class="config-step-title">Turn on GitHub Pages</div>
-            <div class="config-step-desc">In your repo â Settings â Pages â Source: "Deploy from a branch" â Branch: main â folder: / (root) â Save. Your URL will be <code>yourusername.github.io/surgical-guide-tracker</code>. Takes ~2 minutes to go live.</div>
+            <div class="config-step-desc">In your repo Ã¢ÂÂ Settings Ã¢ÂÂ Pages Ã¢ÂÂ Source: "Deploy from a branch" Ã¢ÂÂ Branch: main Ã¢ÂÂ folder: / (root) Ã¢ÂÂ Save. Your URL will be <code>yourusername.github.io/surgical-guide-tracker</code>. Takes ~2 minutes to go live.</div>
           </div>
         </div>
         <div class="config-step">
           <div class="config-step-num">5</div>
           <div class="config-step-body">
             <div class="config-step-title">Create a Personal Access Token</div>
-            <div class="config-step-desc">Go to <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a> â Note: "Surgical Guide Tracker" â Expiration: No expiration â Check <strong>repo</strong> scope â Generate token â copy it immediately (shown once only).</div>
+            <div class="config-step-desc">Go to <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a> Ã¢ÂÂ Note: "Surgical Guide Tracker" Ã¢ÂÂ Expiration: No expiration Ã¢ÂÂ Check <strong>repo</strong> scope Ã¢ÂÂ Generate token Ã¢ÂÂ copy it immediately (shown once only).</div>
           </div>
         </div>
         <div class="config-step">
           <div class="config-step-num">6</div>
           <div class="config-step-body">
             <div class="config-step-title">Connect from the GitHub tab</div>
-            <div class="config-step-desc">Go to the GitHub tab â enter your username, repo name, and token â Test Connection â Save & Connect. Each team member does this step with their own token.</div>
+            <div class="config-step-desc">Go to the GitHub tab Ã¢ÂÂ enter your username, repo name, and token Ã¢ÂÂ Test Connection Ã¢ÂÂ Save & Connect. Each team member does this step with their own token.</div>
           </div>
         </div>
         <div class="config-step">
@@ -614,7 +614,7 @@ textarea{resize:vertical;min-height:52px;}
 <div class="modal">
   <div class="mhd">
     <div><div class="mhd-title" id="editTitle">New Case</div><div class="mhd-sub">Fill available fields - update as the case progresses</div></div>
-    <button class="xbtn" onclick="closeEdit()">â</button>
+    <button class="xbtn" onclick="closeEdit()">Ã¢ÂÂ</button>
   </div>
   <div class="mbody">
 
@@ -639,13 +639,13 @@ textarea{resize:vertical;min-height:52px;}
         </div>
         <div class="fg"><label>Current Stage</label>
           <select id="e_stage">
-            <option value="pre-records">1 Â· Pre-Records (Scheduling)</option>
-            <option value="records-appt">2 Â· Records Appointment</option>
-            <option value="surgery-prep">3 Â· Surgery Prep + Lab (Parallel)</option>
-            <option value="surgery-appt">4 Â· Surgery Appointment</option>
-            <option value="mid-surgery-fu">5 Â· Mid-Surgery Follow-up</option>
-            <option value="final-resto">6 Â· Final Restoration Decision</option>
-            <option value="complete">7 Â· Complete</option>
+            <option value="pre-records">1 ÃÂ· Pre-Records (Scheduling)</option>
+            <option value="records-appt">2 ÃÂ· Records Appointment</option>
+            <option value="surgery-prep">3 ÃÂ· Surgery Prep + Lab (Parallel)</option>
+            <option value="surgery-appt">4 ÃÂ· Surgery Appointment</option>
+            <option value="mid-surgery-fu">5 ÃÂ· Mid-Surgery Follow-up</option>
+            <option value="final-resto">6 ÃÂ· Final Restoration Decision</option>
+            <option value="complete">7 ÃÂ· Complete</option>
           </select>
         </div>
       </div>
@@ -693,11 +693,11 @@ textarea{resize:vertical;min-height:52px;}
       <div class="fsec-hd"><span class="fbadge" style="background:var(--gold-lt);color:#8a6010;">STEP 3 - PARALLEL</span> Surgery Prep &amp; Lab Work</div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
         <div>
-          <div style="font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:var(--blue);background:var(--blue-lt);padding:2px 6px;border-radius:3px;margin-bottom:7px;display:inline-block;">ð Scheduling Side</div>
+          <div style="font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:var(--blue);background:var(--blue-lt);padding:2px 6px;border-radius:3px;margin-bottom:7px;display:inline-block;">Ã°ÂÂÂ Scheduling Side</div>
           <div class="fg"><label>Pre-Op Prep Notes</label><textarea id="e_prepNotes" placeholder="Consent, medical clearance, pre-op instructions..."></textarea></div>
         </div>
         <div>
-          <div style="font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:var(--teal);background:var(--teal-lt);padding:2px 6px;border-radius:3px;margin-bottom:7px;display:inline-block;">ð¬ Lab Side (after Records)</div>
+          <div style="font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:var(--teal);background:var(--teal-lt);padding:2px 6px;border-radius:3px;margin-bottom:7px;display:inline-block;">Ã°ÂÂÂ¬ Lab Side (after Records)</div>
           <div class="fgrid" style="grid-template-columns:1fr 1fr;">
             <div class="fg"><label>Design Meeting Date</label><input id="e_meetDate" type="date"></div>
             <div class="fg"><label>Meeting Status</label>
@@ -778,7 +778,7 @@ textarea{resize:vertical;min-height:52px;}
     </div>
     <div style="display:flex;gap:7px;align-items:flex-start;">
       <button class="btn btn-gold btn-sm" onclick="editCurrent()">Edit</button>
-      <button class="xbtn" style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.5);" onclick="closeDet()">â</button>
+      <button class="xbtn" style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.5);" onclick="closeDet()">Ã¢ÂÂ</button>
     </div>
   </div>
   <div class="wf-wrap"><div class="wf-title">Case Workflow</div><div id="dv_timeline"></div></div>
@@ -786,8 +786,8 @@ textarea{resize:vertical;min-height:52px;}
   <div id="dv_fu_banner" style="display:none;"></div>
   <div class="notes-sec"><div class="notes-lbl">Notes</div><div class="notes-val" id="dv_notes">-</div></div>
   <div class="dft">
-    <button class="btn btn-danger btn-sm" onclick="deleteCase()">ð Delete</button>
-    <button class="btn btn-navy btn-sm" onclick="editCurrent()">â Edit</button>
+    <button class="btn btn-danger btn-sm" onclick="deleteCase()">Ã°ÂÂÂ Delete</button>
+    <button class="btn btn-navy btn-sm" onclick="editCurrent()">Ã¢ÂÂ Edit</button>
   </div>
 </div>
 </div>
@@ -799,7 +799,7 @@ textarea{resize:vertical;min-height:52px;}
 <div class="modal" style="max-width:560px;">
   <div class="mhd">
     <div><div class="mhd-title" id="drEditTitle">Add Doctor</div><div class="mhd-sub">Saved to your directory - select from dropdown when entering cases</div></div>
-    <button class="xbtn" onclick="closeDrEdit()">â</button>
+    <button class="xbtn" onclick="closeDrEdit()">Ã¢ÂÂ</button>
   </div>
   <div class="mbody">
     <div class="fsec">
@@ -827,7 +827,7 @@ textarea{resize:vertical;min-height:52px;}
     </div>
   </div>
   <div class="mft">
-    <button class="btn btn-danger btn-sm" id="drDeleteBtn" onclick="deleteDr()" style="margin-right:auto;display:none;">ð Remove</button>
+    <button class="btn btn-danger btn-sm" id="drDeleteBtn" onclick="deleteDr()" style="margin-right:auto;display:none;">Ã°ÂÂÂ Remove</button>
     <button class="btn btn-ghost" onclick="closeDrEdit()">Cancel</button>
     <button class="btn btn-navy" onclick="saveDr()">Save Doctor</button>
   </div>
@@ -841,13 +841,13 @@ textarea{resize:vertical;min-height:52px;}
 <div class="modal stage-confirm">
   <div class="mhd">
     <div><div class="mhd-title">Move Case?</div></div>
-    <button class="xbtn" onclick="cancelDrag()">â</button>
+    <button class="xbtn" onclick="cancelDrag()">Ã¢ÂÂ</button>
   </div>
   <div class="stage-confirm-body">
     <div class="stage-from" id="sc_patient"></div>
     <div style="display:flex;align-items:center;gap:10px;">
       <div style="flex:1;padding:8px 10px;background:var(--s2);border-radius:5px;font-size:11px;" id="sc_from"></div>
-      <div style="font-size:18px;color:var(--muted);">â</div>
+      <div style="font-size:18px;color:var(--muted);">Ã¢ÂÂ</div>
       <div style="flex:1;padding:8px 10px;border-radius:5px;font-size:11px;font-weight:600;" id="sc_to"></div>
     </div>
     <div class="stage-warn" id="sc_warn" style="display:none;"></div>
@@ -987,7 +987,7 @@ async function loadCases() {
     doctors = JSON.parse(localStorage.getItem(DR_KEY)   || '[]');
     if (!cases.length) seedLocal();
     render(); renderDoctors();
-    toast('â  GitHub unreachable - showing cached data');
+    toast('Ã¢ÂÂ  GitHub unreachable - showing cached data');
   }
 }
 
@@ -1003,7 +1003,7 @@ async function persistCase(c) {
     setSyncBadge('live','GitHub live');
   } catch(e) {
     setSyncBadge('error','Save failed');
-    toast('â  Saved locally - GitHub sync failed: '+e.message);
+    toast('Ã¢ÂÂ  Saved locally - GitHub sync failed: '+e.message);
   }
 }
 
@@ -1017,7 +1017,7 @@ async function persistDoctors(msg) {
     setSyncBadge('live','GitHub live');
   } catch(e) {
     setSyncBadge('error','Save failed');
-    toast('â  Saved locally - GitHub sync failed: '+e.message);
+    toast('Ã¢ÂÂ  Saved locally - GitHub sync failed: '+e.message);
   }
 }
 
@@ -1032,7 +1032,7 @@ async function removeCase(c) {
     setSyncBadge('live','GitHub live');
   } catch(e) {
     setSyncBadge('error','Delete failed');
-    toast('â  Deleted locally - GitHub sync failed');
+    toast('Ã¢ÂÂ  Deleted locally - GitHub sync failed');
   }
 }
 
@@ -1052,9 +1052,9 @@ async function testGitHub() {
     if (!r.ok) throw new Error(`Repo not found or token invalid (${r.status})`);
     const d = await r.json();
     st.className='config-status show ok';
-    st.textContent=`â Connected to ${d.full_name} - ${d.private?'private':'public'} repo. Click Save & Connect.`;
+    st.textContent=`Ã¢ÂÂ Connected to ${d.full_name} - ${d.private?'private':'public'} repo. Click Save & Connect.`;
   } catch(e) {
-    st.className='config-status show err'; st.textContent='â '+e.message;
+    st.className='config-status show err'; st.textContent='Ã¢ÂÂ '+e.message;
   }
 }
 
@@ -1068,7 +1068,7 @@ function saveGitHubConfig() {
   localStorage.setItem('sgv7_cfg', JSON.stringify(cfg));
   closeConfig();
   loadCases();
-  toast('â GitHub connected - syncing...');
+  toast('Ã¢ÂÂ GitHub connected - syncing...');
 }
 
 function clearGitHubConfig() {
@@ -1137,9 +1137,9 @@ function onDrSelect() {
   if (dr) {
     preview.style.display='block';
     document.getElementById('drPreviewName').textContent=drLabel(dr);
-    document.getElementById('drPreviewPhone').innerHTML=dr.phone?`ð <span>${dr.phone}</span>`:'';
-    document.getElementById('drPreviewContact').innerHTML=dr.contact?`ð¤ Contact: <span>${dr.contact}</span>`:'';
-    document.getElementById('drPreviewTurnaround').innerHTML=dr.turnaround?`â± Turnaround: <span>${dr.turnaround.replace(/-/g,' ')}</span>`:'';
+    document.getElementById('drPreviewPhone').innerHTML=dr.phone?`Ã°ÂÂÂ <span>${dr.phone}</span>`:'';
+    document.getElementById('drPreviewContact').innerHTML=dr.contact?`Ã°ÂÂÂ¤ Contact: <span>${dr.contact}</span>`:'';
+    document.getElementById('drPreviewTurnaround').innerHTML=dr.turnaround?`Ã¢ÂÂ± Turnaround: <span>${dr.turnaround.replace(/-/g,' ')}</span>`:'';
   } else { preview.style.display='none'; }
 }
 
@@ -1180,7 +1180,7 @@ function seedDoctors() {
   const today = new Date().toISOString().split('T')[0];
   doctors = [
     { id:'DR-001', name:'Dr. Patel', practice:'NW Implant Center', phone:'(503) 555-0101', email:'office@nwimplant.com', contact:'Maria (coordinator)', turnaround:'standard-1w', instructions:'Always call before shipping.', volNotes:'~3 cases/month', notes:'Long-term client.', createdAt:today },
-    { id:'DR-002', name:'Dr. Nguyen', practice:'Eastside Oral Surgery', phone:'(503) 555-0142', email:'info@eastsideoral.com', contact:'Tom', turnaround:'standard-2w', instructions:'', volNotes:'High volume Q3âQ4', notes:'', createdAt:today },
+    { id:'DR-002', name:'Dr. Nguyen', practice:'Eastside Oral Surgery', phone:'(503) 555-0142', email:'info@eastsideoral.com', contact:'Tom', turnaround:'standard-2w', instructions:'', volNotes:'High volume Q3Ã¢ÂÂQ4', notes:'', createdAt:today },
     { id:'DR-003', name:'Dr. Walsh', practice:'Vancouver Perio', phone:'(360) 555-0188', email:'dr.walsh@vanperio.com', contact:'Linda', turnaround:'rush-48h', instructions:'Prefers double-boxing.', volNotes:'Frequent rush cases.', notes:'', createdAt:today },
   ];
   saveDoctors();
@@ -1255,11 +1255,11 @@ function cardHtml(c,color) {
   const tags=[];
   if(c.needsScan) tags.push(`<span class="ctag ct-scan">Scan Appl</span>`);
   if(c.trackFinal) tags.push(`<span class="ctag ct-final">Final Resto</span>`);
-  if(u==='hot') tags.push(`<span class="ctag ct-urgent">â¡ Urgent</span>`);
+  if(u==='hot') tags.push(`<span class="ctag ct-urgent">Ã¢ÂÂ¡ Urgent</span>`);
   if(c.trackFinal&&c.finDec==='pending'&&['mid-surgery-fu','final-resto'].includes(c.stage)) tags.push(`<span class="ctag ct-fu">Follow-up Due</span>`);
-  const rdRow=c.recDate?`<div class="cdr"><span>ð</span><span>Records: <span class="cdv ${du(c.recDate)>=0&&du(c.recDate)<=3?'warn':''}">${fmt(c.recDate)}</span></span></div>`:'';
-  const sdRow=c.surDate?`<div class="cdr"><span>ðª</span><span>Surgery: <span class="cdv ${u}">${fmt(c.surDate)}${sd!==null?` <em>(${sd}d)</em>`:''}</span></span></div>`:'';
-  const dlRow=c.delDate?`<div class="cdr"><span>ð¦</span><span>Delivery: <span class="cdv">${fmt(c.delDate)}</span></span></div>`:'';
+  const rdRow=c.recDate?`<div class="cdr"><span>Ã°ÂÂÂ</span><span>Records: <span class="cdv ${du(c.recDate)>=0&&du(c.recDate)<=3?'warn':''}">${fmt(c.recDate)}</span></span></div>`:'';
+  const sdRow=c.surDate?`<div class="cdr"><span>Ã°ÂÂÂª</span><span>Surgery: <span class="cdv ${u}">${fmt(c.surDate)}${sd!==null?` <em>(${sd}d)</em>`:''}</span></span></div>`:'';
+  const dlRow=c.delDate?`<div class="cdr"><span>Ã°ÂÂÂ¦</span><span>Delivery: <span class="cdv">${fmt(c.delDate)}</span></span></div>`:'';
   return `<div class="card" draggable="true" data-id="${c.id}" onclick="openDet('${c.id}')"
     ondragstart="onDragStart(event,'${c.id}')" ondragend="onDragEnd(event)">
     <div class="card-bar" style="background:${color}"></div>
@@ -1302,40 +1302,40 @@ function openDet(id) {
   const drDisplay=dr?drLabel(dr):(c.dr||'-');
 
   document.getElementById('dv_name').textContent=c.pt||'-';
-  document.getElementById('dv_sub').textContent=`${c.id} Â· ${drDisplay}`;
+  document.getElementById('dv_sub').textContent=`${c.id} ÃÂ· ${drDisplay}`;
 
   const tags=[
     `<span class="dchip" style="background:${st?.color}22;color:${st?.color}">${st?.label||c.stage}</span>`,
     c.needsScan?`<span class="dchip chip-y">Scan Appl</span>`:'',
     c.trackFinal?`<span class="dchip chip-tbd">Final Resto</span>`:'',
-    sd!==null&&sd<=14?`<span class="dchip chip-hot">â¡ ${sd}d to surgery</span>`:'',
+    sd!==null&&sd<=14?`<span class="dchip chip-hot">Ã¢ÂÂ¡ ${sd}d to surgery</span>`:'',
   ].filter(Boolean).join('');
   document.getElementById('dv_tags').innerHTML=tags;
 
   const wfSteps=[
-    { name:'Scheduling', icon:'ð', color:'var(--blue)',
+    { name:'Scheduling', icon:'Ã°ÂÂÂ', color:'var(--blue)',
       status:c.recStatus==='completed'?'done':(c.recDate?'active':'pending'),
-      desc:`Records: ${fmt(c.recDate)} (${c.recStatus}) Â· Surgery: ${fmt(c.surDate)} (${c.surStatus})`, date:c.recDate },
-    { name:'Records Appointment', icon:'ð', color:'var(--blue)',
+      desc:`Records: ${fmt(c.recDate)} (${c.recStatus}) ÃÂ· Surgery: ${fmt(c.surDate)} (${c.surStatus})`, date:c.recDate },
+    { name:'Records Appointment', icon:'Ã°ÂÂÂ', color:'var(--blue)',
       status:c.recStatus==='completed'?'done':(c.recDate?'active':'pending'),
-      desc:`Files: ${c.filesStatus}${c.filesNotes?' - '+c.filesNotes:''}${c.needsScan?' Â· Scan Appl: '+(c.scanRec?'Received':c.scanOrd?'Ordered':'Needed'):''}`,
+      desc:`Files: ${c.filesStatus}${c.filesNotes?' - '+c.filesNotes:''}${c.needsScan?' ÃÂ· Scan Appl: '+(c.scanRec?'Received':c.scanOrd?'Ordered':'Needed'):''}`,
       date:c.recDone||c.recDate },
-    { name:'Surgery Prep  <>lt;-<>gt;  Lab Work', icon:'â¡', color:'var(--gold)', parallel:true,
+    { name:'Surgery Prep  <>lt;-<>gt;  Lab Work', icon:'Ã¢ÂÂ¡', color:'var(--gold)', parallel:true,
       schedItems:[{ name:'Pre-Op Prep', desc:c.prepNotes||'Consent, clearance, patient instructions', status:['surgery-appt','mid-surgery-fu','final-resto','complete'].includes(c.stage)?'done':'pending' }],
       labItems:[
-        { name:'Design Meeting', desc:`${c.meetStatus}${c.meetDate?' Â· '+fmt(c.meetDate):''}`, date:c.meetDate, status:c.meetStatus==='completed'?'done':(c.meetDate?'active':'pending') },
-        { name:'Guide Fabrication', desc:`${fmt(c.fabStart)} â ${fmt(c.fabEnd)}`, date:c.fabEnd, status:c.delStatus==='delivered'||['surgery-appt','mid-surgery-fu','final-resto','complete'].includes(c.stage)?'done':(c.fabStart?'active':'pending') },
-        { name:'Guide Delivery', desc:`${fmt(c.delDate)} Â· ${c.delStatus}`, date:c.delDate, status:c.delStatus==='delivered'?'done':(c.delDate?'active':'pending') },
+        { name:'Design Meeting', desc:`${c.meetStatus}${c.meetDate?' ÃÂ· '+fmt(c.meetDate):''}`, date:c.meetDate, status:c.meetStatus==='completed'?'done':(c.meetDate?'active':'pending') },
+        { name:'Guide Fabrication', desc:`${fmt(c.fabStart)} Ã¢ÂÂ ${fmt(c.fabEnd)}`, date:c.fabEnd, status:c.delStatus==='delivered'||['surgery-appt','mid-surgery-fu','final-resto','complete'].includes(c.stage)?'done':(c.fabStart?'active':'pending') },
+        { name:'Guide Delivery', desc:`${fmt(c.delDate)} ÃÂ· ${c.delStatus}`, date:c.delDate, status:c.delStatus==='delivered'?'done':(c.delDate?'active':'pending') },
       ]},
-    { name:'Surgery Appointment', icon:'ð¥', color:'var(--teal)',
+    { name:'Surgery Appointment', icon:'Ã°ÂÂÂ¥', color:'var(--teal)',
       status:c.surStatus==='completed'?'done':(c.surDate?'pending':'pending'),
       desc:`${fmt(c.surDate)}${c.surNotes?' - '+c.surNotes:''}`, date:c.surDone||c.surDate },
-    { name:'Mid-Surgery Follow-up', icon:'ð', color:'var(--purple)',
+    { name:'Mid-Surgery Follow-up', icon:'Ã°ÂÂÂ', color:'var(--purple)',
       status:c.fuStatus==='completed'?'done':(c.fuDate?'active':'pending'),
       desc:`${c.fuStatus}${c.fuNotes?' - '+c.fuNotes:''}`, date:c.fuDate },
-    { name:'Final Restoration Decision', icon:'ð', color:'var(--rose)',
+    { name:'Final Restoration Decision', icon:'Ã°ÂÂÂ', color:'var(--rose)',
       status:!c.trackFinal?'skip':(c.finDec==='yes'||c.finDec==='no'?'done':(['final-resto'].includes(c.stage)?'active':'pending')),
-      desc:!c.trackFinal?'Not tracked for this case':`Doctor decides at/after surgery Â· ${c.finDec}${c.finDec==='yes'?` Â· Fab: ${fmt(c.finFabStart)} â ${fmt(c.finFabDel)}`:''}`,
+      desc:!c.trackFinal?'Not tracked for this case':`Doctor decides at/after surgery ÃÂ· ${c.finDec}${c.finDec==='yes'?` ÃÂ· Fab: ${fmt(c.finFabStart)} Ã¢ÂÂ ${fmt(c.finFabDel)}`:''}`,
       date:c.finDecDate, notes:c.finNotes },
   ];
 
@@ -1344,24 +1344,24 @@ function openDet(id) {
     const isLast=i===wfSteps.length-1;
     if(s.parallel){
       tlHtml+=`<div class="wf-step">
-        <div class="wf-left"><div class="wf-dot active" style="border-color:var(--gold);background:var(--gold-lt);color:#8a6010;">â¡</div>${!isLast?'<div class="wf-line"></div>':''}</div>
+        <div class="wf-left"><div class="wf-dot active" style="border-color:var(--gold);background:var(--gold-lt);color:#8a6010;">Ã¢ÂÂ¡</div>${!isLast?'<div class="wf-line"></div>':''}</div>
         <div class="wf-content">
           <div class="wf-name" style="color:var(--gold)">Step 3 - Parallel Phase</div>
           <div class="parallel-box">
             <div>
-              <div class="par-title" style="background:var(--blue-lt);color:var(--blue);">ð Scheduling Side</div>
-              ${s.schedItems.map(si=>`<div class="par-item"><div class="par-dot ${si.status}">${si.status==='done'?'â':'Â·'}</div><div><div class="par-name">${si.name}</div><div class="par-desc">${si.desc}</div></div></div>`).join('')}
+              <div class="par-title" style="background:var(--blue-lt);color:var(--blue);">Ã°ÂÂÂ Scheduling Side</div>
+              ${s.schedItems.map(si=>`<div class="par-item"><div class="par-dot ${si.status}">${si.status==='done'?'Ã¢ÂÂ':'ÃÂ·'}</div><div><div class="par-name">${si.name}</div><div class="par-desc">${si.desc}</div></div></div>`).join('')}
             </div>
             <div>
-              <div class="par-title" style="background:var(--teal-lt);color:var(--teal);">ð¬ Lab Side (after Records)</div>
-              ${s.labItems.map(li=>`<div class="par-item"><div class="par-dot ${li.status}">${li.status==='done'?'â':li.status==='active'?'â':'Â·'}</div><div><div class="par-name">${li.name}</div><div class="par-desc">${li.desc}</div>${li.date?`<span class="wf-chip ${li.status==='done'?'done':'set'}">${fmt(li.date)}</span>`:`<span class="wf-chip none">No date</span>`}</div></div>`).join('')}
+              <div class="par-title" style="background:var(--teal-lt);color:var(--teal);">Ã°ÂÂÂ¬ Lab Side (after Records)</div>
+              ${s.labItems.map(li=>`<div class="par-item"><div class="par-dot ${li.status}">${li.status==='done'?'Ã¢ÂÂ':li.status==='active'?'Ã¢ÂÂ':'ÃÂ·'}</div><div><div class="par-name">${li.name}</div><div class="par-desc">${li.desc}</div>${li.date?`<span class="wf-chip ${li.status==='done'?'done':'set'}">${fmt(li.date)}</span>`:`<span class="wf-chip none">No date</span>`}</div></div>`).join('')}
             </div>
           </div>
         </div>
       </div>`;
     } else {
       const dc=s.status==='skip'?'skip':s.status;
-      const di=s.status==='done'?'â':s.status==='skip'?'-':s.icon;
+      const di=s.status==='done'?'Ã¢ÂÂ':s.status==='skip'?'-':s.icon;
       const ds=s.status==='active'?`border-color:${s.color};background:${s.color}22;color:${s.color};box-shadow:0 0 0 3px ${s.color}22;`:'';
       tlHtml+=`<div class="wf-step">
         <div class="wf-left"><div class="wf-dot ${dc}" style="${ds}">${di}</div>${!isLast?'<div class="wf-line"></div>':''}</div>
@@ -1405,7 +1405,7 @@ function openDet(id) {
   const fub=document.getElementById('dv_fu_banner');
   if(c.trackFinal&&c.finDec==='pending'&&['mid-surgery-fu','final-resto'].includes(c.stage)){
     fub.style.display='block';
-    fub.innerHTML=`<div class="fu-banner"><div class="fu-ico">ð</div><div><div class="fu-title">Final Restoration Follow-up Due</div><div class="fu-sub">Contact ${c.dr} to confirm: will they send us the final restoration?${c.fuDate?' Target: '+fmt(c.fuDate):''}</div></div></div>`;
+    fub.innerHTML=`<div class="fu-banner"><div class="fu-ico">Ã°ÂÂÂ</div><div><div class="fu-title">Final Restoration Follow-up Due</div><div class="fu-sub">Contact ${c.dr} to confirm: will they send us the final restoration?${c.fuDate?' Target: '+fmt(c.fuDate):''}</div></div></div>`;
   } else fub.style.display='none';
 
   document.getElementById('dv_notes').textContent=c.notes||'No notes.';
@@ -1503,7 +1503,7 @@ async function saveCase(){
   btn.textContent='Save Case'; btn.disabled=false;
   closeEdit(); render();
   const calNote = gcalIsConnected() ? ' + calendar synced' : '';
-  toast(isConnected()?`â Saved to GitHub${calNote}`:`â Saved locally${calNote}`);
+  toast(isConnected()?`Ã¢ÂÂ Saved to GitHub${calNote}`:`Ã¢ÂÂ Saved locally${calNote}`);
 }
 
 // ================================
@@ -1582,7 +1582,7 @@ async function confirmImport(){
   document.getElementById('csvPreview').style.display='none';
   document.getElementById('csvFileInput').value='';
   closeConfig(); render();
-  toast(`â ${csvImportData.length||'Cases'} imported successfully`);
+  toast(`Ã¢ÂÂ ${csvImportData.length||'Cases'} imported successfully`);
 }
 
 function cancelImport(){
@@ -1603,14 +1603,14 @@ function exportCSV(){
   const blob=new Blob([headers+'\n'+rows.join('\n')],{type:'text/csv'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
   a.download=`surgical_guide_cases_${new Date().toISOString().split('T')[0]}.csv`; a.click();
-  toast('â CSV exported');
+  toast('Ã¢ÂÂ CSV exported');
 }
 
 function exportJSON(){
   const blob=new Blob([JSON.stringify(cases,null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
   a.download=`surgical_guide_backup_${new Date().toISOString().split('T')[0]}.json`; a.click();
-  toast('â JSON backup exported');
+  toast('Ã¢ÂÂ JSON backup exported');
 }
 
 function exportDoctorsCSV(){
@@ -1620,7 +1620,7 @@ function exportDoctorsCSV(){
   const blob=new Blob([headers.join(',')+'\n'+rows.join('\n')],{type:'text/csv'});
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);
   a.download=`doctors_${new Date().toISOString().split('T')[0]}.csv`;a.click();
-  toast('â Doctors exported');
+  toast('Ã¢ÂÂ Doctors exported');
 }
 
 // ================================
@@ -1675,7 +1675,7 @@ function saveDr() {
   closeDrEdit();
   renderDoctors();
   populateDrDropdown(data.id);
-  toast(`â Doctor ${name} saved`);
+  toast(`Ã¢ÂÂ Doctor ${name} saved`);
 }
 
 function deleteDr() {
@@ -1706,18 +1706,18 @@ function renderDoctors() {
       <div class="dr-card-bar"></div>
       <div class="dr-name">${d.name}</div>
       <div class="dr-practice">${d.practice}</div>
-      ${d.phone?`<div class="dr-info-row"><span>ð</span><span>${d.phone}</span></div>`:''}
-      ${d.email?`<div class="dr-info-row"><span>â</span><span>${d.email}</span></div>`:''}
-      ${d.contact?`<div class="dr-info-row"><span>ð¤</span><span>${d.contact}</span></div>`:''}
-      ${d.turnaround?`<div class="dr-info-row"><span>â±</span><span>${TURNAROUND_LABELS[d.turnaround]||d.turnaround}</span></div>`:''}
-      ${d.instructions?`<div class="dr-info-row" style="font-style:italic;"><span>ð</span><span>${d.instructions}</span></div>`:''}
-      ${d.volNotes?`<div class="dr-info-row"><span>ð</span><span>${d.volNotes}</span></div>`:''}
+      ${d.phone?`<div class="dr-info-row"><span>Ã°ÂÂÂ</span><span>${d.phone}</span></div>`:''}
+      ${d.email?`<div class="dr-info-row"><span>Ã¢ÂÂ</span><span>${d.email}</span></div>`:''}
+      ${d.contact?`<div class="dr-info-row"><span>Ã°ÂÂÂ¤</span><span>${d.contact}</span></div>`:''}
+      ${d.turnaround?`<div class="dr-info-row"><span>Ã¢ÂÂ±</span><span>${TURNAROUND_LABELS[d.turnaround]||d.turnaround}</span></div>`:''}
+      ${d.instructions?`<div class="dr-info-row" style="font-style:italic;"><span>Ã°ÂÂÂ</span><span>${d.instructions}</span></div>`:''}
+      ${d.volNotes?`<div class="dr-info-row"><span>Ã°ÂÂÂ</span><span>${d.volNotes}</span></div>`:''}
       <div class="dr-case-cnt">
-        <strong>${activeCases}</strong> active case${activeCases!==1?'s':''} &nbsp;Â·&nbsp; ${caseCount} total
+        <strong>${activeCases}</strong> active case${activeCases!==1?'s':''} &nbsp;ÃÂ·&nbsp; ${caseCount} total
       </div>
       <div class="dr-actions">
-        <button class="btn btn-ghost btn-sm" onclick="openDrEdit('${d.id}')">â Edit</button>
-        <button class="btn btn-ghost btn-sm" onclick="filterByDr('${d.id}')">ð View Cases</button>
+        <button class="btn btn-ghost btn-sm" onclick="openDrEdit('${d.id}')">Ã¢ÂÂ Edit</button>
+        <button class="btn btn-ghost btn-sm" onclick="filterByDr('${d.id}')">Ã°ÂÂÂ View Cases</button>
       </div>
     </div>`;
   }).join('');
@@ -1784,7 +1784,7 @@ function onDrop(event, targetStage) {
   const goingBack = stageIdx < fromIdx;
   if (goingBack) {
     warn.style.display='block';
-    warn.textContent='â  Moving backwards - some completed fields will still show as done. Update the case after moving if needed.';
+    warn.textContent='Ã¢ÂÂ  Moving backwards - some completed fields will still show as done. Update the case after moving if needed.';
   } else { warn.style.display='none'; }
 
   document.getElementById('stageConfirmOv').classList.add('open');
@@ -1796,7 +1796,7 @@ async function confirmDrag() {
     c.stage = dragTargetStage;
     await persistCase(c);
     render();
-    toast(`â Moved to ${STAGES.find(s=>s.id===dragTargetStage)?.label||dragTargetStage}`);
+    toast(`Ã¢ÂÂ Moved to ${STAGES.find(s=>s.id===dragTargetStage)?.label||dragTargetStage}`);
   }
   dragCaseId=null; dragTargetStage=null;
   document.getElementById('stageConfirmOv').classList.remove('open');
@@ -1837,7 +1837,7 @@ function saveGcalConfig() {
   gcalCfg.calId    = document.getElementById('gcal_calId').value.trim() || 'primary';
   localStorage.setItem('sgv4_gcal', JSON.stringify(gcalCfg));
   updateGcalBadge();
-  showGcalStatus('â Settings saved. Click "Authorize with Google" to connect.', 'ok');
+  showGcalStatus('Ã¢ÂÂ Settings saved. Click "Authorize with Google" to connect.', 'ok');
 }
 
 function clearGcalConfig() {
@@ -1858,7 +1858,7 @@ function showGcalStatus(msg, type) {
 // OAuth2 implicit flow - opens Google consent popup, gets access token
 function gcalAuthorize() {
   const clientId = document.getElementById('gcal_clientId').value.trim() || gcalCfg.clientId;
-  if (!clientId) { showGcalStatus('â Enter your Google OAuth Client ID first.', 'err'); return; }
+  if (!clientId) { showGcalStatus('Ã¢ÂÂ Enter your Google OAuth Client ID first.', 'err'); return; }
 
   gcalCfg.clientId = clientId;
   gcalCfg.calId    = document.getElementById('gcal_calId').value.trim() || 'primary';
@@ -1886,8 +1886,8 @@ function gcalAuthorize() {
         // Auto-clear token when it expires
         setTimeout(() => { gcalToken = null; updateGcalBadge(); toast('Google Calendar session expired - re-authorize in settings.'); }, expiresIn * 1000);
         updateGcalBadge();
-        showGcalStatus('â Google Calendar connected! Dates will sync automatically when you save cases.', 'ok');
-        document.getElementById('gcalAuthStatus').textContent = 'â Authorized successfully.';
+        showGcalStatus('Ã¢ÂÂ Google Calendar connected! Dates will sync automatically when you save cases.', 'ok');
+        document.getElementById('gcalAuthStatus').textContent = 'Ã¢ÂÂ Authorized successfully.';
       }
     } catch(e) {
       // Cross-origin - keep polling until redirect back to same origin
@@ -1968,8 +1968,8 @@ async function syncCaseToGcal(c) {
   const stageLabel = STAGES.find(s => s.id === c.stage)?.label || c.stage;
   const baseDesc = `Case: ${c.id}\nPatient: ${c.pt}\nDoctor: ${c.dr}\nStage: ${stageLabel}`;
 
-  const recDesc = `ð Records Appointment\n${baseDesc}${c.schedNotes ? '\n\nNotes: ' + c.schedNotes : ''}`;
-  const surDesc = `ðª Surgery Date\n${baseDesc}${c.surNotes ? '\n\nSurgery notes: ' + c.surNotes : ''}${c.schedNotes ? '\nScheduling: ' + c.schedNotes : ''}`;
+  const recDesc = `Ã°ÂÂÂ Records Appointment\n${baseDesc}${c.schedNotes ? '\n\nNotes: ' + c.schedNotes : ''}`;
+  const surDesc = `Ã°ÂÂÂª Surgery Date\n${baseDesc}${c.surNotes ? '\n\nSurgery notes: ' + c.surNotes : ''}${c.schedNotes ? '\nScheduling: ' + c.schedNotes : ''}`;
 
   await gcalUpsertEvent(c, 'recDate', 'Records Appt', recDesc);
   await gcalUpsertEvent(c, 'surDate', 'Surgery', surDesc);
@@ -1979,7 +1979,7 @@ async function syncCaseToGcal(c) {
 
 async function gcalSyncAll() {
   if (!gcalIsConnected()) {
-    showGcalStatus('â Authorize with Google first.', 'err');
+    showGcalStatus('Ã¢ÂÂ Authorize with Google first.', 'err');
     return;
   }
   const btn = event.target;
@@ -1993,10 +1993,10 @@ async function gcalSyncAll() {
       count++;
     }
   }
-  btn.textContent = 'â Push all cases to Google Calendar';
+  btn.textContent = 'Ã¢ÂÂ Push all cases to Google Calendar';
   btn.disabled = false;
-  showGcalStatus(`â Synced ${count} case(s) to Google Calendar.`, 'ok');
-  toast(`â ${count} cases pushed to Google Calendar`);
+  showGcalStatus(`Ã¢ÂÂ Synced ${count} case(s) to Google Calendar.`, 'ok');
+  toast(`Ã¢ÂÂ ${count} cases pushed to Google Calendar`);
 }
 
 // Restore gcal config on load
