@@ -2010,8 +2010,10 @@ function initGcal() {
 }
 
 // ══════════════════════════════════
-// KEYBOARD / CLICK-OUT
+// KEYBOARD / CLICK-OUT / INIT
 // ══════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeEdit();closeDet();closeConfig();closeDrEdit();cancelDrag();}});
 ['editOv','detOv','configOv','drOv','stageConfirmOv'].forEach(id=>{
   document.getElementById(id).addEventListener('click',e=>{
@@ -2030,12 +2032,11 @@ if(importArea){
   });
 }
 
-// ══════════════════════════════════
-// INIT
-// ══════════════════════════════════
 seedDoctors();
 initGcal();
 loadCases();
+
+}); // end DOMContentLoaded
 </script>
 </body>
 </html>
