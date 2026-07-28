@@ -37,7 +37,8 @@
     "guideType": "resin",
     "onlineMeetDate": "",
     "onlineMeetStatus": "not-scheduled",
-    "meetDeadline": "2026-07-30"
+    "meetDeadline": "2026-07-30",
+    "stage": "surgery-prep"
   },
   {
     "id": "SG-2026-003",
