@@ -38,7 +38,8 @@
     "onlineMeetDate": "",
     "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "2026-07-30",
-    "stage": "surgery-prep"
+    "stage": "surgery-prep",
+    "assignedTo": "TM-MS4ZKP1U"
   },
   {
     "id": "SG-2026-003",
