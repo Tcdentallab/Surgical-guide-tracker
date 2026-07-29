@@ -1,8 +1,8 @@
 [
   {
     "id": "SG-2026-002",
-    "pt": "clinton bond",
-    "dr": "DR-2276",
+    "pt": "Clinton Bond",
+    "dr": "DR-5241",
     "recDate": "2026-07-27",
     "recStatus": "completed",
     "surDate": "2026-08-13",
@@ -26,7 +26,7 @@
     "fuDate": "",
     "fuStatus": "pending",
     "fuNotes": "",
-    "trackFinal": false,
+    "trackFinal": true,
     "finDec": "pending",
     "finDecDate": "",
     "finFabStart": "",
@@ -38,8 +38,7 @@
     "onlineMeetDate": "",
     "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "2026-07-30",
-    "stage": "surgery-prep",
-    "assignedTo": "TM-MS4ZKP1U"
+    "assignedTo": ""
   },
   {
     "id": "SG-2026-003",
