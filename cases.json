@@ -43,9 +43,10 @@
   },
   {
     "id": "SG-2026-003",
-    "pt": "test",
+    "pt": "test 2",
     "dr": "",
-    "guideType": "resin",
+    "stage": "surgery-appt",
+    "guideType": "chrome",
     "assignedTo": "",
     "recDate": "",
     "recStatus": "not-scheduled",
