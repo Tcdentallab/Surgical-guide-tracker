@@ -164,7 +164,8 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-07-30"
+    "createdAt": "2026-07-30",
+    "stage": "surgery-appt"
   },
   {
     "id": "SG-2026-005",
