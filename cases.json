@@ -380,8 +380,7 @@
   {
     "id": "SG-2026-010",
     "pt": "Yana",
-    "dr": "DR-458",
-    "stage": "pre-records",
+    "dr": "DR-1062",
     "guideType": "resin",
     "assignedTo": "TM-YANA",
     "recDate": "2026-08-05",
@@ -418,6 +417,6 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-03",
-    "isDraft": false
+    "isDraft": true
   }
 ]
