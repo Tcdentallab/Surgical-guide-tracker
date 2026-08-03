@@ -87,6 +87,7 @@
     "id": "SG-2026-003",
     "pt": "Carrisa Giles",
     "dr": "DR-4403",
+    "stage": "surgery-prep",
     "guideType": "resin",
     "assignedTo": "TM-ARINA",
     "recDate": "2026-07-29",
@@ -122,7 +123,8 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-07-30"
+    "createdAt": "2026-07-30",
+    "isDraft": false
   },
   {
     "id": "SG-2026-004",
