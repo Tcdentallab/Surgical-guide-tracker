@@ -44,7 +44,7 @@
   {
     "id": "SG-2026-001",
     "pt": "Hue Pham",
-    "dr": "DR-492",
+    "dr": "DR-5484",
     "guideType": "resin",
     "assignedTo": "",
     "recDate": "",
@@ -81,7 +81,7 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-07-30",
-    "stage": "surgery-appt"
+    "isDraft": true
   },
   {
     "id": "SG-2026-003",
@@ -89,7 +89,7 @@
     "dr": "DR-4403",
     "stage": "surgery-prep",
     "guideType": "resin",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "",
     "recDate": "2026-07-29",
     "recStatus": "completed",
     "onlineMeetDate": "",
@@ -98,15 +98,15 @@
     "surDate": "",
     "surStatus": "not-scheduled",
     "schedNotes": "",
-    "recDone": "2026-07-27",
-    "filesStatus": "complete",
+    "recDone": "",
+    "filesStatus": "pending",
     "filesNotes": "",
     "needsScan": false,
     "scanOrd": "",
     "scanRec": "",
     "prepNotes": "",
-    "meetDate": "2026-08-03",
-    "meetStatus": "completed",
+    "meetDate": "",
+    "meetStatus": "not-scheduled",
     "fabStart": "",
     "fabEnd": "",
     "delDate": "",
@@ -123,8 +123,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-07-30",
-    "isDraft": false
+    "createdAt": "2026-07-30"
   },
   {
     "id": "SG-2026-004",
