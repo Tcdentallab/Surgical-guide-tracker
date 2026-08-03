@@ -36,7 +36,7 @@
     "createdAt": "2026-07-27",
     "guideType": "resin",
     "onlineMeetDate": "",
-    "onlineMeetStatus": "scheduled",
+    "onlineMeetStatus": "completed",
     "meetDeadline": "2026-07-30",
     "stage": "surgery-prep",
     "assignedTo": "TM-DAVID"
@@ -417,6 +417,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-03"
+    "createdAt": "2026-08-03",
+    "isDraft": false
   }
 ]
