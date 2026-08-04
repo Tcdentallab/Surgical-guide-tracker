@@ -472,6 +472,7 @@
     "id": "SG-2026-012",
     "pt": "Chelsea Moser",
     "dr": "DR-2307",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
