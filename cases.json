@@ -816,6 +816,7 @@
     "id": "SG-2026-020",
     "pt": "Grant Hillman",
     "dr": "DR-5468",
+    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -851,7 +852,7 @@
     "finFabDel": "2026-08-28",
     "finNotes": "",
     "notes": "",
-    "isDraft": true,
+    "isDraft": false,
     "createdAt": "2026-08-04"
   },
   {
