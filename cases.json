@@ -472,9 +472,8 @@
     "id": "SG-2026-012",
     "pt": "Chelsea Moser",
     "dr": "DR-2307",
-    "stage": "surgery-prep",
     "guideType": "chrome",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "TM-DAVID",
     "recDate": "",
     "recStatus": "completed",
     "onlineMeetDate": "",
@@ -552,6 +551,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "isDraft": false
   }
 ]
