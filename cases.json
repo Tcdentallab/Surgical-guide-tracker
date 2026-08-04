@@ -1112,6 +1112,10 @@
     "finNotes": "",
     "notes": "",
     "isDraft": true,
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "onHold": true,
+    "holdReason": "other",
+    "holdNote": "Waiting for patient approval since last year",
+    "holdDate": "2026-08-04"
   }
 ]
