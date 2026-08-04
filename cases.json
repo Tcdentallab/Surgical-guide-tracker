@@ -491,7 +491,7 @@
     "scanRec": "",
     "prepNotes": "",
     "meetDate": "",
-    "meetStatus": "not-scheduled",
+    "meetStatus": "completed",
     "fabStart": "",
     "fabEnd": "",
     "delDate": "",
@@ -508,6 +508,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "isDraft": false
   }
 ]
