@@ -639,7 +639,8 @@
     "finNotes": "",
     "notes": "",
     "isDraft": true,
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "stage": "healing"
   },
   {
     "id": "SG-2026-016",
@@ -724,8 +725,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-04",
-    "isDraft": false
+    "createdAt": "2026-08-04"
   },
   {
     "id": "SG-2026-018",
