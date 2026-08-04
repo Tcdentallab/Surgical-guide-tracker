@@ -859,6 +859,7 @@
     "id": "SG-2026-021",
     "pt": "Mark Clark",
     "dr": "DR-5468",
+    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -894,7 +895,7 @@
     "finFabDel": "2026-09-11",
     "finNotes": "",
     "notes": "",
-    "isDraft": true,
+    "isDraft": false,
     "createdAt": "2026-08-04"
   }
 ]
