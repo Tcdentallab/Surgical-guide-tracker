@@ -557,6 +557,7 @@
     "id": "SG-2026-014",
     "pt": "Hannah Williams",
     "dr": "DR-5436",
+    "stage": "healing",
     "guideType": "chrome",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -593,6 +594,6 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": true
   }
 ]
