@@ -816,7 +816,6 @@
     "id": "SG-2026-020",
     "pt": "Grant Hillman",
     "dr": "DR-5468",
-    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -848,11 +847,11 @@
     "trackFinal": true,
     "finDec": "pending",
     "finDecDate": "2026-08-05",
-    "finFabStart": "2026-08-14",
-    "finFabDel": "2026-08-28",
+    "finFabStart": "2026-08-21",
+    "finFabDel": "2026-09-04",
     "finNotes": "",
     "notes": "Message from NW: We will get him in either 21th or 24th to re-eval for final. I'll check with Dr. Sched. And will book him",
-    "isDraft": false,
+    "isDraft": true,
     "createdAt": "2026-08-04"
   },
   {
