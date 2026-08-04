@@ -509,6 +509,7 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": false,
+    "isComplete": true
   }
 ]
