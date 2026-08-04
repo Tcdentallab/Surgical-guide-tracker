@@ -208,7 +208,11 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-07-30"
+    "createdAt": "2026-07-30",
+    "onHold": true,
+    "holdReason": "other",
+    "holdNote": "Waiting for Dr to approve",
+    "holdDate": "2026-08-04"
   },
   {
     "id": "SG-2026-006",
