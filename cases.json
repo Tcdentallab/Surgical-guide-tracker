@@ -1164,6 +1164,7 @@
     "id": "SG-2026-028",
     "pt": "Hannah Williams",
     "dr": "DR-5436",
+    "stage": "mid-surgery-fu",
     "guideType": "resin",
     "assignedTo": "TM-ASHLEY",
     "recDate": "2026-09-09",
@@ -1200,6 +1201,6 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-06",
-    "isDraft": false
+    "isDraft": true
   }
 ]
