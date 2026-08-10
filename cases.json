@@ -466,7 +466,8 @@
     "finNotes": "",
     "notes": "",
     "isDraft": true,
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "stage": "final-resto"
   },
   {
     "id": "SG-2026-012",
