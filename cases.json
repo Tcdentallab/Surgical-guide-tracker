@@ -435,7 +435,7 @@
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "",
-    "onlineMeetStatus": "completed",
+    "onlineMeetStatus": "scheduled",
     "meetDeadline": "",
     "surDate": "",
     "surStatus": "not-scheduled",
