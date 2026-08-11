@@ -773,7 +773,7 @@
     "id": "SG-2026-019",
     "pt": "Noah Pungan",
     "dr": "DR-5343",
-    "stage": "surgery-appt",
+    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-ASHLEY",
     "recDate": "",
@@ -808,7 +808,7 @@
     "finFabStart": "2026-11-20",
     "finFabDel": "2026-12-04",
     "finNotes": "",
-    "notes": "",
+    "notes": "Dr placed 3 out of 4 implants. Dr will let the patient heal; come back later and place the last implant. ",
     "isDraft": true,
     "createdAt": "2026-08-04"
   },
