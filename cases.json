@@ -945,6 +945,7 @@
     "id": "SG-2026-023",
     "pt": "Floyd Tibbets",
     "dr": "DR-2307",
+    "stage": "surgery-appt",
     "guideType": "none",
     "assignedTo": "TM-ASHLEY",
     "recDate": "",
