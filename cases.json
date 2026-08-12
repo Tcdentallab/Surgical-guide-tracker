@@ -767,7 +767,8 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "isDraft": false
   },
   {
     "id": "SG-2026-019",
@@ -944,9 +945,9 @@
     "id": "SG-2026-023",
     "pt": "Floyd Tibbets",
     "dr": "DR-2307",
-    "stage": "surgery-prep",
+    "stage": "surgery-appt",
     "guideType": "none",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "TM-ASHLEY",
     "recDate": "",
     "recStatus": "completed",
     "onlineMeetDate": "",
