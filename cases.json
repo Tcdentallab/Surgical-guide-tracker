@@ -21,7 +21,7 @@
     "fabEnd": "2026-08-06",
     "delDate": "2026-08-10",
     "surDone": "",
-    "delStatus": "pending",
+    "delStatus": "shipped",
     "surNotes": "",
     "fuDate": "",
     "fuStatus": "pending",
@@ -38,8 +38,8 @@
     "onlineMeetDate": "",
     "onlineMeetStatus": "completed",
     "meetDeadline": "2026-07-30",
-    "stage": "surgery-prep",
-    "assignedTo": "TM-ARINA",
+    "stage": "surgery-appt",
+    "assignedTo": "TM-ASHLEY",
     "isDraft": false
   },
   {
