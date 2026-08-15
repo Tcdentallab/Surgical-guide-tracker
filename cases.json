@@ -984,7 +984,11 @@
     "finNotes": "",
     "notes": "Doctor moved the surgery date, confirm with doctor new date.",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": false,
+    "onHold": true,
+    "holdReason": "other",
+    "holdNote": "waiting to reschedule",
+    "holdDate": "2026-08-15"
   },
   {
     "id": "SG-2026-024",
