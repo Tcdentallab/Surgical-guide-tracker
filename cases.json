@@ -83,7 +83,8 @@
     "notes": "",
     "createdAt": "2026-07-30",
     "stage": "healing",
-    "isDraft": true
+    "isDraft": true,
+    "isComplete": true
   },
   {
     "id": "SG-2026-003",
