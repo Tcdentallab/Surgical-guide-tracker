@@ -1298,7 +1298,6 @@
     "id": "SG-2026-031",
     "pt": "Lori Wilson",
     "dr": "DR-2201",
-    "stage": "healing",
     "guideType": "none",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -1306,8 +1305,8 @@
     "onlineMeetDate": "",
     "onlineMeetStatus": "completed",
     "meetDeadline": "",
-    "surDate": "",
-    "surStatus": "completed",
+    "surDate": "2026-08-18",
+    "surStatus": "not-scheduled",
     "schedNotes": "",
     "recDone": "",
     "filesStatus": "pending",
@@ -1327,14 +1326,14 @@
     "fuDate": "",
     "fuStatus": "pending",
     "fuNotes": "",
-    "trackFinal": false,
+    "trackFinal": true,
     "finDec": "pending",
-    "finDecDate": "",
+    "finDecDate": "2026-12-18",
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
     "notes": "Dave & Peter chairsided for this case, waiting for patient to heal before we take records for final",
     "createdAt": "2026-08-19",
-    "isDraft": false
+    "isDraft": true
   }
 ]
