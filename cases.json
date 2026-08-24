@@ -1256,7 +1256,7 @@
     "id": "SG-2026-030",
     "pt": "Carolyn Trent",
     "dr": "DR-1159",
-    "stage": "surgery-prep",
+    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -1292,7 +1292,8 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-17"
+    "createdAt": "2026-08-17",
+    "isDraft": true
   },
   {
     "id": "SG-2026-031",
