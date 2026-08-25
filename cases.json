@@ -298,7 +298,8 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-07-30",
-    "stage": "surgery-prep"
+    "stage": "surgery-prep",
+    "isDraft": true
   },
   {
     "id": "SG-2026-008",
