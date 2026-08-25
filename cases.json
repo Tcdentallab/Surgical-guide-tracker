@@ -263,7 +263,7 @@
     "pt": "Pete Twyaman",
     "dr": "DR-2335",
     "guideType": "chrome",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "TM-ASHLEY",
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "",
@@ -298,7 +298,6 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-07-30",
-    "stage": "surgery-appt",
     "isDraft": true
   },
   {
