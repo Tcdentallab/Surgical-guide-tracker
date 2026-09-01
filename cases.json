@@ -1537,7 +1537,8 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "",
-    "createdAt": "2026-09-01"
+    "notes": "Pt: Appointment is 9/8 @12:00pm",
+    "createdAt": "2026-09-01",
+    "isDraft": false
   }
 ]
