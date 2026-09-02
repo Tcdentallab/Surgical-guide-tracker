@@ -1411,7 +1411,9 @@
     "notes": "Design for CA",
     "createdAt": "2026-08-21",
     "gcalEvents": {},
-    "isComplete": true
+    "isComplete": true,
+    "stage": "healing",
+    "isDraft": false
   },
   {
     "id": "SG-2026-033",
