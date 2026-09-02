@@ -1410,7 +1410,8 @@
     "finNotes": "",
     "notes": "Design for CA",
     "createdAt": "2026-08-21",
-    "gcalEvents": {}
+    "gcalEvents": {},
+    "isComplete": true
   },
   {
     "id": "SG-2026-033",
