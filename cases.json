@@ -129,7 +129,10 @@
     "finNotes": "",
     "notes": "Doctor out of office until aug 17th, will reach out then - AC\nDoctor meeting will be 8/19 at 5pm - AC",
     "createdAt": "2026-07-30",
-    "gcalEvents": {}
+    "gcalEvents": {
+      "recDate": "q8rv7mkr2ndeoemsgqgtec3n70",
+      "onlineMeetDate": "9mqmmsjalqhkckr0mi6pp15r0k"
+    }
   },
   {
     "id": "SG-2026-004",
