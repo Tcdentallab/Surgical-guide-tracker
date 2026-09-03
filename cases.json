@@ -579,7 +579,11 @@
     "createdAt": "2026-08-04",
     "isDraft": false,
     "gcalEvents": {},
-    "isComplete": false
+    "isComplete": false,
+    "onHold": true,
+    "holdReason": "other",
+    "holdNote": "Case on hold per Dave no reason",
+    "holdDate": "2026-09-03"
   },
   {
     "id": "SG-2026-014",
