@@ -530,7 +530,11 @@
     "createdAt": "2026-08-04",
     "isDraft": false,
     "isComplete": false,
-    "gcalEvents": {}
+    "gcalEvents": {},
+    "onHold": true,
+    "holdReason": "other",
+    "holdNote": "Not sure why Dave put on hold",
+    "holdDate": "2026-09-03"
   },
   {
     "id": "SG-2026-013",
