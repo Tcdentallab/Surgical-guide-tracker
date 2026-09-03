@@ -306,7 +306,11 @@
     "createdAt": "2026-07-30",
     "stage": "surgery-appt",
     "isDraft": true,
-    "gcalEvents": {}
+    "gcalEvents": {
+      "surDate": "og85fs5rgvitmr4aetb5488olk",
+      "delDate": "ao4le1iqpulepeoou8u38jpsms",
+      "finDecDate": "eg5l59i05tt1jplgbk1d6dbmag"
+    }
   },
   {
     "id": "SG-2026-008",
