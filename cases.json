@@ -273,7 +273,7 @@
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "",
-    "onlineMeetStatus": "completed",
+    "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "2026-08-14",
     "surDate": "2026-09-03",
     "surStatus": "not-scheduled",
@@ -304,7 +304,6 @@
     "finNotes": "",
     "notes": "Surgery will be rescheduled, pt got sick. YA",
     "createdAt": "2026-07-30",
-    "stage": "surgery-appt",
     "isDraft": true,
     "gcalEvents": {
       "surDate": "og85fs5rgvitmr4aetb5488olk",
