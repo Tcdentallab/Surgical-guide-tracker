@@ -92,6 +92,7 @@
     "id": "SG-2026-003",
     "pt": "Carrisa Giles",
     "dr": "DR-4403",
+    "stage": "surgery-appt",
     "guideType": "resin",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-07-29",
