@@ -304,6 +304,7 @@
     "finNotes": "",
     "notes": "Surgery will be rescheduled, pt got sick. YA",
     "createdAt": "2026-07-30",
+    "stage": "surgery-appt",
     "isDraft": true,
     "gcalEvents": {
       "surDate": "og85fs5rgvitmr4aetb5488olk",
