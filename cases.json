@@ -578,7 +578,8 @@
     "notes": "Case on hold per Dave no reason. YA",
     "createdAt": "2026-08-04",
     "isDraft": false,
-    "gcalEvents": {}
+    "gcalEvents": {},
+    "isComplete": false
   },
   {
     "id": "SG-2026-014",
