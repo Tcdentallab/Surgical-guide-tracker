@@ -1383,7 +1383,8 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-21"
+    "createdAt": "2026-08-21",
+    "isComplete": true
   },
   {
     "id": "SG-2026-033",
