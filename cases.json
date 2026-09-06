@@ -1384,7 +1384,11 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-21",
-    "isComplete": true
+    "isComplete": true,
+    "gcalEvents": {
+      "surDate": "l1k6fmattp3sil7c6ksigii7d0",
+      "delDate": "m00o3nrq8l73jtd2umom1u50i4"
+    }
   },
   {
     "id": "SG-2026-033",
