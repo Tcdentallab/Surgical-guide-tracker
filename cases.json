@@ -270,7 +270,7 @@
     "onlineMeetDate": "",
     "onlineMeetStatus": "completed",
     "meetDeadline": "",
-    "surDate": "",
+    "surDate": "2026-09-03",
     "surStatus": "not-scheduled",
     "schedNotes": "",
     "recDone": "",
@@ -284,7 +284,7 @@
     "meetStatus": "completed",
     "fabStart": "",
     "fabEnd": "",
-    "delDate": "",
+    "delDate": "2026-08-25",
     "surDone": "",
     "delStatus": "pending",
     "surNotes": "",
@@ -293,13 +293,18 @@
     "fuNotes": "",
     "trackFinal": false,
     "finDec": "pending",
-    "finDecDate": "",
+    "finDecDate": "2026-12-08",
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-07-30",
-    "stage": "surgery-prep"
+    "stage": "surgery-prep",
+    "gcalEvents": {
+      "surDate": "og85fs5rgvitmr4aetb5488olk",
+      "delDate": "ao4le1iqpulepeoou8u38jpsms",
+      "finDecDate": "eg5l59i05tt1jplgbk1d6dbmag"
+    }
   },
   {
     "id": "SG-2026-008",
