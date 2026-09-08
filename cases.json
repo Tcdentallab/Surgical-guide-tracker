@@ -90,6 +90,7 @@
     "id": "SG-2026-003",
     "pt": "Carrisa Giles",
     "dr": "DR-4403",
+    "stage": "surgery-appt",
     "guideType": "resin",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-07-29",
@@ -126,7 +127,7 @@
     "finNotes": "",
     "notes": "Doctor out of office until aug 17th, will reach out then - AC\nDoctor meeting will be 8/19 at 5pm - AC",
     "createdAt": "2026-07-30",
-    "isDraft": true
+    "isDraft": false
   },
   {
     "id": "SG-2026-004",
