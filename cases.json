@@ -1578,13 +1578,12 @@
     "id": "SG-2026-037",
     "pt": "Janell Respicio",
     "dr": "DR-5677",
-    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
     "recStatus": "not-scheduled",
-    "onlineMeetDate": "",
-    "onlineMeetStatus": "not-scheduled",
+    "onlineMeetDate": "2026-09-17",
+    "onlineMeetStatus": "scheduled",
     "meetDeadline": "2026-09-29",
     "surDate": "2026-10-18",
     "surStatus": "not-scheduled",
@@ -1614,6 +1613,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-09-14"
+    "createdAt": "2026-09-14",
+    "isDraft": false
   }
 ]
