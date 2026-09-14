@@ -1537,7 +1537,7 @@
     "dr": "DR-MU1EYFM2",
     "stage": "surgery-prep",
     "guideType": "none",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "TM-DAVID",
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "",
@@ -1571,6 +1571,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-09-14"
+    "createdAt": "2026-09-14",
+    "isDraft": false
   }
 ]
