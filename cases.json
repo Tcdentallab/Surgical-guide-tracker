@@ -209,12 +209,12 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Dr. set surgery date but not confirm",
+    "notes": "Dr. set surgery date but not confirm\nDoctors wanted another TX Plan meeting, set for 9/15 - AC",
     "createdAt": "2026-07-30",
-    "onHold": true,
-    "holdReason": "other",
-    "holdNote": "Waiting for Dr to approve",
-    "holdDate": "2026-08-04",
+    "onHold": false,
+    "holdReason": "",
+    "holdNote": "",
+    "holdDate": "",
     "isDraft": true
   },
   {
