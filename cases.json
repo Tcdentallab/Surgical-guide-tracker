@@ -649,7 +649,8 @@
     "notes": "",
     "isDraft": true,
     "createdAt": "2026-08-04",
-    "stage": "mid-surgery-fu"
+    "stage": "mid-surgery-fu",
+    "gcalEvents": {}
   },
   {
     "id": "SG-2026-016",
