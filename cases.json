@@ -650,7 +650,12 @@
     "isDraft": true,
     "createdAt": "2026-08-04",
     "stage": "mid-surgery-fu",
-    "gcalEvents": {}
+    "gcalEvents": {
+      "onlineMeetDate": "s11i760447o8g243trqngvbuis",
+      "surDate": "r4b5ecjeojctc0q59llii0j75k",
+      "delDate": "9onfnk2i78m7csh8aqnhg308d0",
+      "finDecDate": "r79tqnsakgafa19cdfki218p2o"
+    }
   },
   {
     "id": "SG-2026-016",
