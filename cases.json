@@ -649,6 +649,7 @@
     "notes": "Scheduled for Final Try-In Seating 09/21/26 Added by YA",
     "isDraft": false,
     "createdAt": "2026-08-04",
+    "stage": "final-resto",
     "gcalEvents": {
       "onlineMeetDate": "s11i760447o8g243trqngvbuis",
       "surDate": "r4b5ecjeojctc0q59llii0j75k",
