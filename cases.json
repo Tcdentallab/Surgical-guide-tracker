@@ -215,7 +215,8 @@
     "holdReason": "",
     "holdNote": "",
     "holdDate": "",
-    "isDraft": true
+    "isDraft": false,
+    "stage": "surgery-prep"
   },
   {
     "id": "SG-2026-006",
