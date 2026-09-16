@@ -606,7 +606,12 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "onlineMeetDate": "8icoksl6e6s84dppg9lfa9pdkg",
+      "surDate": "bklqlf84j8cmh47gvuin7d8lr4",
+      "delDate": "lecc6k281uqvc3g8l3u75ssccg"
+    }
   },
   {
     "id": "SG-2026-015",
