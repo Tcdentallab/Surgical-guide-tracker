@@ -1763,6 +1763,13 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-09-17"
+    "createdAt": "2026-09-17",
+    "gcalEvents": {
+      "recDate": "jeep1840huao5mm6jvlv2t2rsc",
+      "surDate": "ms57fsj8rba78mgbrtlpl1iugo",
+      "delDate": "6jtb7iv10t8t988kdb1g1a85so",
+      "finDecDate": "7n0b97rg6ivrqu4ffo55nilf7c"
+    },
+    "isDraft": false
   }
 ]
