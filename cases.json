@@ -1413,7 +1413,7 @@
     "id": "SG-2026-033",
     "pt": "Tien Le",
     "dr": "DR-2088",
-    "stage": "healing",
+    "stage": "surgery-appt",
     "guideType": "none",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-08-25",
@@ -1455,7 +1455,8 @@
       "surDate": "5jnfi12b9e4e6u69154p2881k8",
       "finDecDate": "0padcbomk7f649tk1t53c81vjc",
       "onlineMeetDate": "nn8839ikmir3epvgki97d3vgb0"
-    }
+    },
+    "isDraft": true
   },
   {
     "id": "SG-2026-034",
