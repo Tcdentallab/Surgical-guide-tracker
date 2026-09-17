@@ -389,7 +389,11 @@
     "finFabDel": "2026-09-04",
     "finNotes": "",
     "notes": "Final Record Taking scheduled 9/15 @10:00 am",
-    "createdAt": "2026-07-30"
+    "createdAt": "2026-07-30",
+    "gcalEvents": {
+      "recDate": "hb6k513cb67tid2409u6i2f6ck",
+      "finDecDate": "ceg1fiq9i66i4secphuutjfnjo"
+    }
   },
   {
     "id": "SG-2026-010",
