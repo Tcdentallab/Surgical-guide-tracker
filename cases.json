@@ -976,7 +976,11 @@
     "finFabDel": "2026-10-05",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "gcalEvents": {
+      "surDate": "8iah3h6ieegtr7uvgt204ncslc",
+      "finDecDate": "cfo7aj3kc1ft3mpg3b2gaf041s"
+    }
   },
   {
     "id": "SG-2026-023",
