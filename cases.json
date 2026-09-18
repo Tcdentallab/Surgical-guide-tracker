@@ -216,7 +216,13 @@
     "holdNote": "Waiting for Dr to approve",
     "holdDate": "2026-08-04",
     "isDraft": true,
-    "stage": "surgery-prep"
+    "stage": "surgery-prep",
+    "gcalEvents": {
+      "onlineMeetDate": "r5d54hov8nt21cgimlkpvkm9ag",
+      "surDate": "aj5ln7fhrg63btot98loguetr4",
+      "delDate": "foq00k1i7nuvclee2ll5cn2lss",
+      "finDecDate": "iqigm6fo4o0gft485hoin76t3s"
+    }
   },
   {
     "id": "SG-2026-006",
