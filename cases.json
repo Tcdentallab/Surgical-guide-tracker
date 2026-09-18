@@ -1066,7 +1066,11 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "surDate": "67uqtit3t4s628kavjai2dfdgs",
+      "finDecDate": "ifongostmdbdpgkosmch6tepek"
+    }
   },
   {
     "id": "SG-2026-025",
