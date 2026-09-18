@@ -1659,7 +1659,12 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-09-14",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "onlineMeetDate": "fduq4tm5ol431qd98l40es5vf8",
+      "surDate": "i6quggmt2f5m0f3sr8sth4bnl8",
+      "delDate": "dl0fd13r1r7tm0pdglgqnl2f7g"
+    }
   },
   {
     "id": "SG-2026-038",
