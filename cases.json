@@ -1807,7 +1807,7 @@
   {
     "id": "SG-2026-041",
     "pt": "Joy Atkinson",
-    "dr": "",
+    "dr": "DR-2292",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
@@ -1843,6 +1843,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-09-21"
+    "createdAt": "2026-09-21",
+    "isDraft": false
   }
 ]
