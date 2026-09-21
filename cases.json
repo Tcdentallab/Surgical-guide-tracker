@@ -1641,8 +1641,7 @@
   {
     "id": "SG-2026-038",
     "pt": "Mary Otto",
-    "dr": "",
-    "stage": "surgery-appt",
+    "dr": "DR-1062",
     "guideType": "resin",
     "assignedTo": "TM-DAVID",
     "recDate": "",
