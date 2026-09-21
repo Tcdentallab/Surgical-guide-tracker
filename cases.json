@@ -222,7 +222,13 @@
     "holdReason": "other",
     "holdNote": "Waiting for Dr to approve",
     "holdDate": "2026-08-04",
-    "isDraft": true
+    "isDraft": true,
+    "gcalEvents": {
+      "onlineMeetDate": "91s6pjj8gnpt4oau4q483thl1o",
+      "surDate": "iphf17n0oqu7ep1u2mnbb2s8so",
+      "delDate": "mn070qkej5u4lbr8fikql7oi78",
+      "finDecDate": "85r02s2avhk4v2j6lt80b66vqc"
+    }
   },
   {
     "id": "SG-2026-006",
