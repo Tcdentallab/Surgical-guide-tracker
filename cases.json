@@ -1518,7 +1518,13 @@
     "notes": "",
     "createdAt": "2026-09-01",
     "isDraft": false,
-    "gcalEvents": {}
+    "gcalEvents": {
+      "recDate": "jtj59554t4vd7obnflst8dadd4",
+      "onlineMeetDate": "2a0sg4ua31g4ncuq4eaiimf7a0",
+      "surDate": "49e5h19m6t9smla9kocb7vkiv0",
+      "delDate": "va5dtg9boedcg4vgdfqhcgfjrc",
+      "finDecDate": "e1phg487i17jj29rf890t8odlk"
+    }
   },
   {
     "id": "SG-2026-035",
