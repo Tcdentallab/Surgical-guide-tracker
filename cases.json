@@ -1752,7 +1752,11 @@
       "delDate": "fgsap2fsuboiu9bdmuoa9330kk",
       "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4"
     },
-    "isDraft": false
+    "isDraft": false,
+    "onHold": true,
+    "holdReason": "other",
+    "holdNote": "Case on hold by office until further notice",
+    "holdDate": "2026-09-22"
   },
   {
     "id": "SG-2026-040",
