@@ -1718,7 +1718,7 @@
     "id": "SG-2026-040",
     "pt": "Anatoli Veretennikov",
     "dr": "DR-490",
-    "stage": "surgery-prep",
+    "stage": "surgery-appt",
     "guideType": "chrome",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-09-17",
@@ -1762,7 +1762,7 @@
       "finDecDate": "7n0b97rg6ivrqu4ffo55nilf7c",
       "onlineMeetDate": "16n5vttl2j6ti0np3k4uum0i6k"
     },
-    "isDraft": false
+    "isDraft": true
   },
   {
     "id": "SG-2026-041",
