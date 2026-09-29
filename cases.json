@@ -215,7 +215,7 @@
     "holdReason": "",
     "holdNote": "",
     "holdDate": "",
-    "isDraft": true,
+    "isDraft": false,
     "gcalEvents": {
       "onlineMeetDate": "v9bv13sl9le6ffk79qljmqas2k",
       "surDate": "1hqjpcpdvhs5j5olt9idturofg",
@@ -1706,7 +1706,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Have not yet recieved the case from the office. - YA",
+    "notes": "Have not yet recieved the case from the office. - YA\nOffice",
     "createdAt": "2026-09-16",
     "gcalEvents": {
       "surDate": "prtr6dhgj7j6tfvgn137nvvjm0",
