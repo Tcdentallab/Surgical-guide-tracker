@@ -1371,7 +1371,11 @@
     "notes": "Dave & Peter chairsided for this case, waiting for patient to heal before we take records for final",
     "createdAt": "2026-08-19",
     "isDraft": true,
-    "isComplete": true
+    "isComplete": true,
+    "gcalEvents": {
+      "surDate": "ka1leb2cjna11ne7gbsckqqbco",
+      "finDecDate": "6s6pjoek6pkolj5gp04tid5q70"
+    }
   },
   {
     "id": "SG-2026-032",
