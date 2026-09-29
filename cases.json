@@ -1632,7 +1632,7 @@
     "scanRec": "",
     "prepNotes": "",
     "meetDate": "2026-09-28",
-    "meetStatus": "scheduled",
+    "meetStatus": "completed",
     "fabStart": "2026-10-01",
     "fabEnd": "2026-10-12",
     "delDate": "2026-10-14",
@@ -1650,7 +1650,11 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-09-14",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "onlineMeetDate": "dl3toun8g6hkhii05sfeadp6fk",
+      "surDate": "7tgg16mgoqjq6djq2nr8eli49k"
+    }
   },
   {
     "id": "SG-2026-039",
