@@ -890,7 +890,12 @@
     "finNotes": "",
     "notes": "Message from NW: We will get him in either 21th or 24th to re-eval for final. I'll check with Dr. Sched. And will book him",
     "isDraft": true,
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "gcalEvents": {
+      "surDate": "tjck42bp2jb2hutdu2rp69j68c",
+      "delDate": "a0f6t48ki7hhj1okl9kqic16n8",
+      "finDecDate": "ntq02gbgh2p1smao0eg5jdhr4o"
+    }
   },
   {
     "id": "SG-2026-021",
