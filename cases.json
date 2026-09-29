@@ -1509,7 +1509,14 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-09-01",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "recDate": "78ktal1utvtlcmm0a1t7h5u1os",
+      "onlineMeetDate": "p6mau0ee6e1a164q86g7368o58",
+      "surDate": "er6rhpffamk6np2ldfo2b4mbak",
+      "delDate": "msmluqqicdeovn1odnnvec4d2c",
+      "finDecDate": "130i6vk39nvime8469lv38dh2o"
+    }
   },
   {
     "id": "SG-2026-035",
