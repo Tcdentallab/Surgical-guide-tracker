@@ -1713,7 +1713,8 @@
     "onHold": false,
     "holdReason": "",
     "holdNote": "",
-    "holdDate": ""
+    "holdDate": "",
+    "stage": "surgery-prep"
   },
   {
     "id": "SG-2026-040",
