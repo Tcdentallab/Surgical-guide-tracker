@@ -1689,7 +1689,7 @@
     "scanOrd": "",
     "scanRec": "",
     "prepNotes": "",
-    "meetDate": "2026-09-21",
+    "meetDate": "2026-09-22",
     "meetStatus": "not-scheduled",
     "fabStart": "2026-09-24",
     "fabEnd": "2026-10-05",
@@ -1713,7 +1713,8 @@
       "delDate": "fgsap2fsuboiu9bdmuoa9330kk",
       "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4"
     },
-    "isDraft": false
+    "isDraft": false,
+    "stage": "surgery-prep"
   },
   {
     "id": "SG-2026-040",
