@@ -1827,13 +1827,14 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "",
+    "notes": "Dr. cancel the case",
     "createdAt": "2026-09-15",
     "gcalEvents": {
       "surDate": "udgo3kht0tb3nrrps9iokru2j8",
       "delDate": "2e0loh9kva1ku1rgneeiq30c68",
       "onlineMeetDate": "9nefaph3ghghj2ohif2kbtai04"
     },
-    "isDraft": false
+    "isDraft": false,
+    "isComplete": true
   }
 ]
