@@ -215,7 +215,13 @@
     "holdReason": "",
     "holdNote": "",
     "holdDate": "",
-    "isDraft": true
+    "isDraft": true,
+    "gcalEvents": {
+      "onlineMeetDate": "v9bv13sl9le6ffk79qljmqas2k",
+      "surDate": "1hqjpcpdvhs5j5olt9idturofg",
+      "delDate": "ilgbnnj5jhda5uluol5942f2rc",
+      "finDecDate": "chq1fa4tepe9mpvkr7gojj2ui8"
+    }
   },
   {
     "id": "SG-2026-006",
