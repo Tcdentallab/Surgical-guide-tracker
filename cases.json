@@ -90,7 +90,7 @@
     "id": "SG-2026-003",
     "pt": "Carrisa Giles",
     "dr": "DR-4403",
-    "stage": "surgery-appt",
+    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-07-29",
@@ -127,7 +127,14 @@
     "finNotes": "",
     "notes": "Doctor out of office until aug 17th, will reach out then - AC\nDoctor meeting will be 8/19 at 5pm - AC",
     "createdAt": "2026-07-30",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "recDate": "s9kl3578aimc37lagb2i5nr9ho",
+      "onlineMeetDate": "l64c23t1jig8p9m94u0avlhm9c",
+      "surDate": "srtr7b3q4os1pdk4vofdhgg8hc",
+      "delDate": "s4d0u99m6kfbr8k7i19lmistt4",
+      "finDecDate": "8n276583o0mv65f24d8v8agvu0"
+    }
   },
   {
     "id": "SG-2026-004",
@@ -176,14 +183,14 @@
     "pt": "Dean Browning",
     "dr": "DR-492",
     "guideType": "resin",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "TM-DAVID",
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "2026-07-30",
-    "onlineMeetStatus": "scheduled",
+    "onlineMeetStatus": "completed",
     "meetDeadline": "2026-09-21",
     "surDate": "2026-10-05",
-    "surStatus": "scheduled",
+    "surStatus": "not-scheduled",
     "schedNotes": "",
     "recDone": "",
     "filesStatus": "pending",
@@ -196,9 +203,9 @@
     "meetStatus": "completed",
     "fabStart": "2026-09-23",
     "fabEnd": "2026-09-28",
-    "delDate": "2026-09-25",
+    "delDate": "2026-09-30",
     "surDone": "",
-    "delStatus": "delivered",
+    "delStatus": "pending",
     "surNotes": "",
     "fuDate": "",
     "fuStatus": "pending",
@@ -215,12 +222,12 @@
     "holdReason": "",
     "holdNote": "",
     "holdDate": "",
-    "isDraft": false,
+    "isDraft": true,
     "gcalEvents": {
-      "onlineMeetDate": "v9bv13sl9le6ffk79qljmqas2k",
-      "surDate": "1hqjpcpdvhs5j5olt9idturofg",
-      "delDate": "ilgbnnj5jhda5uluol5942f2rc",
-      "finDecDate": "chq1fa4tepe9mpvkr7gojj2ui8"
+      "onlineMeetDate": "91s6pjj8gnpt4oau4q483thl1o",
+      "surDate": "iphf17n0oqu7ep1u2mnbb2s8so",
+      "delDate": "mn070qkej5u4lbr8fikql7oi78",
+      "finDecDate": "85r02s2avhk4v2j6lt80b66vqc"
     },
     "stage": "surgery-appt"
   },
@@ -312,7 +319,11 @@
       "delDate": "ao4le1iqpulepeoou8u38jpsms",
       "finDecDate": "eg5l59i05tt1jplgbk1d6dbmag"
     },
-    "isDraft": true
+    "isDraft": true,
+    "onHold": true,
+    "holdReason": "cancelled",
+    "holdNote": "Need to be rescheduled, follow up with doctor in October - YA",
+    "holdDate": "2026-09-23"
   },
   {
     "id": "SG-2026-008",
@@ -854,7 +865,7 @@
     "id": "SG-2026-020",
     "pt": "Grant Hillman",
     "dr": "DR-5468",
-    "stage": "final-resto",
+    "stage": "healing",
     "guideType": "resin",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -891,12 +902,7 @@
     "finNotes": "",
     "notes": "Message from NW: We will get him in either 21th or 24th to re-eval for final. I'll check with Dr. Sched. And will book him",
     "isDraft": true,
-    "createdAt": "2026-08-04",
-    "gcalEvents": {
-      "surDate": "tjck42bp2jb2hutdu2rp69j68c",
-      "delDate": "a0f6t48ki7hhj1okl9kqic16n8",
-      "finDecDate": "ntq02gbgh2p1smao0eg5jdhr4o"
-    }
+    "createdAt": "2026-08-04"
   },
   {
     "id": "SG-2026-021",
@@ -1339,7 +1345,7 @@
     "id": "SG-2026-031",
     "pt": "Lori Wilson",
     "dr": "DR-2201",
-    "stage": "final-resto",
+    "stage": "healing",
     "guideType": "none",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -1376,12 +1382,7 @@
     "finNotes": "",
     "notes": "Dave & Peter chairsided for this case, waiting for patient to heal before we take records for final",
     "createdAt": "2026-08-19",
-    "isDraft": true,
-    "isComplete": true,
-    "gcalEvents": {
-      "surDate": "ka1leb2cjna11ne7gbsckqqbco",
-      "finDecDate": "6s6pjoek6pkolj5gp04tid5q70"
-    }
+    "isDraft": true
   },
   {
     "id": "SG-2026-032",
@@ -1434,7 +1435,7 @@
     "id": "SG-2026-033",
     "pt": "Tien Le",
     "dr": "DR-2088",
-    "stage": "healing",
+    "stage": "surgery-appt",
     "guideType": "none",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-08-25",
@@ -1483,9 +1484,9 @@
     "id": "SG-2026-034",
     "pt": "Duane Schulz",
     "dr": "DR-MTIRYF2Z",
-    "stage": "healing",
+    "stage": "surgery-appt",
     "guideType": "chrome",
-    "assignedTo": "TM-ARINA",
+    "assignedTo": "TM-DAVID",
     "recDate": "2026-08-31",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "2026-09-01",
@@ -1522,11 +1523,11 @@
     "createdAt": "2026-09-01",
     "isDraft": false,
     "gcalEvents": {
-      "recDate": "78ktal1utvtlcmm0a1t7h5u1os",
-      "onlineMeetDate": "p6mau0ee6e1a164q86g7368o58",
-      "surDate": "er6rhpffamk6np2ldfo2b4mbak",
-      "delDate": "msmluqqicdeovn1odnnvec4d2c",
-      "finDecDate": "130i6vk39nvime8469lv38dh2o"
+      "recDate": "jtj59554t4vd7obnflst8dadd4",
+      "onlineMeetDate": "2a0sg4ua31g4ncuq4eaiimf7a0",
+      "surDate": "49e5h19m6t9smla9kocb7vkiv0",
+      "delDate": "va5dtg9boedcg4vgdfqhcgfjrc",
+      "finDecDate": "e1phg487i17jj29rf890t8odlk"
     }
   },
   {
@@ -1577,13 +1578,13 @@
     "pt": "Natasha Flatt",
     "dr": "DR-MU1EYFM2",
     "stage": "surgery-appt",
-    "guideType": "none",
-    "assignedTo": "TM-DAVID",
+    "guideType": "resin",
+    "assignedTo": "TM-ARINA",
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "2026-09-18",
     "onlineMeetStatus": "not-scheduled",
-    "meetDeadline": "",
+    "meetDeadline": "2026-09-17",
     "surDate": "2026-10-01",
     "surStatus": "scheduled",
     "schedNotes": "",
@@ -1594,10 +1595,10 @@
     "scanOrd": "",
     "scanRec": "",
     "prepNotes": "",
-    "meetDate": "2026-09-11",
+    "meetDate": "2026-09-16",
     "meetStatus": "completed",
-    "fabStart": "",
-    "fabEnd": "",
+    "fabStart": "2026-09-21",
+    "fabEnd": "2026-09-24",
     "delDate": "2026-09-28",
     "surDone": "",
     "delStatus": "pending",
@@ -1613,24 +1614,24 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-09-14",
-    "isDraft": false,
+    "isDraft": true,
     "gcalEvents": {
       "onlineMeetDate": "6i3926hru24q87b8lenomqotmk",
-      "delDate": "rm4rur0knofbu9ddbq67c2nfo0",
-      "surDate": "guj0f43nso794gclhf28nigo9c"
+      "surDate": "78201ho1oc4g98o0g5furfmjoo",
+      "delDate": "rm4rur0knofbu9ddbq67c2nfo0"
     }
   },
   {
     "id": "SG-2026-037",
     "pt": "Janell Respicio",
     "dr": "DR-5677",
-    "stage": "surgery-appt",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-DAVID",
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "2026-09-17",
-    "onlineMeetStatus": "completed",
+    "onlineMeetStatus": "scheduled",
     "meetDeadline": "2026-09-29",
     "surDate": "2026-10-18",
     "surStatus": "not-scheduled",
@@ -1643,7 +1644,7 @@
     "scanRec": "",
     "prepNotes": "",
     "meetDate": "2026-09-28",
-    "meetStatus": "completed",
+    "meetStatus": "scheduled",
     "fabStart": "2026-10-01",
     "fabEnd": "2026-10-12",
     "delDate": "2026-10-14",
@@ -1661,19 +1662,14 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-09-14",
-    "isDraft": false,
-    "gcalEvents": {
-      "onlineMeetDate": "dl3toun8g6hkhii05sfeadp6fk",
-      "surDate": "7tgg16mgoqjq6djq2nr8eli49k",
-      "delDate": "nq2b7496d95sugip823uv3i3uo"
-    }
+    "isDraft": false
   },
   {
     "id": "SG-2026-039",
     "pt": "Teressa Watson",
     "dr": "DR-5677",
     "guideType": "chrome",
-    "assignedTo": "TM-ANDREI",
+    "assignedTo": "TM-ARINA",
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "",
@@ -1689,7 +1685,7 @@
     "scanOrd": "",
     "scanRec": "",
     "prepNotes": "",
-    "meetDate": "2026-09-22",
+    "meetDate": "2026-09-21",
     "meetStatus": "not-scheduled",
     "fabStart": "2026-09-24",
     "fabEnd": "2026-10-05",
@@ -1706,7 +1702,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Have not yet recieved the case from the office. - YA\nOffice asked to proceed with case - AC",
+    "notes": "Have not yet recieved the case from the office. - YA\nPer office case will be on hold until further notice - AC",
     "createdAt": "2026-09-16",
     "gcalEvents": {
       "surDate": "prtr6dhgj7j6tfvgn137nvvjm0",
@@ -1714,7 +1710,10 @@
       "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4"
     },
     "isDraft": false,
-    "stage": "surgery-prep"
+    "onHold": false,
+    "holdReason": "",
+    "holdNote": "",
+    "holdDate": ""
   },
   {
     "id": "SG-2026-040",
@@ -1744,7 +1743,7 @@
     "fabEnd": "2026-09-23",
     "delDate": "2026-09-25",
     "surDone": "",
-    "delStatus": "delivered",
+    "delStatus": "pending",
     "surNotes": "",
     "fuDate": "",
     "fuStatus": "pending",
@@ -1755,7 +1754,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Dave taking records 9/17ÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
+    "notes": "Dave taking records 9/17\nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
     "createdAt": "2026-09-17",
     "gcalEvents": {
       "recDate": "jeep1840huao5mm6jvlv2t2rsc",
@@ -1764,13 +1763,13 @@
       "finDecDate": "7n0b97rg6ivrqu4ffo55nilf7c",
       "onlineMeetDate": "16n5vttl2j6ti0np3k4uum0i6k"
     },
-    "isDraft": false
+    "isDraft": true
   },
   {
     "id": "SG-2026-041",
     "pt": "Joy Atkinson",
     "dr": "DR-2292",
-    "stage": "surgery-appt",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
@@ -1794,7 +1793,7 @@
     "fabEnd": "2026-09-23",
     "delDate": "2026-09-25",
     "surDone": "",
-    "delStatus": "delivered",
+    "delStatus": "pending",
     "surNotes": "",
     "fuDate": "",
     "fuStatus": "pending",
@@ -1807,17 +1806,13 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-09-21",
-    "isDraft": false,
-    "gcalEvents": {
-      "surDate": "lg5udhtdbuv1a9ttk7ghtiitak",
-      "delDate": "jr0a0h08nopl3t0udiacfrfih4"
-    }
+    "isDraft": false
   },
   {
     "id": "SG-2026-038",
     "pt": "Mary Otto",
     "dr": "",
-    "stage": "final-resto",
+    "stage": "surgery-prep",
     "guideType": "resin",
     "assignedTo": "TM-DAVID",
     "recDate": "",
@@ -1827,7 +1822,7 @@
     "meetDeadline": "2026-09-07",
     "surDate": "2026-09-21",
     "surStatus": "scheduled",
-    "schedNotes": "TL TL2ÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
+    "schedNotes": "TL TL2ÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
     "recDone": "",
     "filesStatus": "pending",
     "filesNotes": "",
@@ -1836,12 +1831,12 @@
     "scanRec": "",
     "prepNotes": "",
     "meetDate": "2026-09-18",
-    "meetStatus": "completed",
+    "meetStatus": "not-scheduled",
     "fabStart": "2026-09-16",
     "fabEnd": "2026-09-17",
     "delDate": "2026-09-16",
     "surDone": "",
-    "delStatus": "delivered",
+    "delStatus": "pending",
     "surNotes": "",
     "fuDate": "",
     "fuStatus": "pending",
@@ -1852,14 +1847,13 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Dr. cancel the case",
+    "notes": "",
     "createdAt": "2026-09-15",
     "gcalEvents": {
       "surDate": "udgo3kht0tb3nrrps9iokru2j8",
       "delDate": "2e0loh9kva1ku1rgneeiq30c68",
       "onlineMeetDate": "9nefaph3ghghj2ohif2kbtai04"
     },
-    "isDraft": false,
-    "isComplete": true
+    "isDraft": false
   }
 ]
