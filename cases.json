@@ -1676,8 +1676,8 @@
     "assignedTo": "TM-ARINA",
     "recDate": "",
     "recStatus": "not-scheduled",
-    "onlineMeetDate": "",
-    "onlineMeetStatus": "not-scheduled",
+    "onlineMeetDate": "2026-09-29",
+    "onlineMeetStatus": "completed",
     "meetDeadline": "2026-09-22",
     "surDate": "2026-10-12",
     "surStatus": "not-scheduled",
@@ -1689,10 +1689,10 @@
     "scanOrd": "",
     "scanRec": "",
     "prepNotes": "",
-    "meetDate": "2026-09-22",
-    "meetStatus": "not-scheduled",
+    "meetDate": "2026-09-29",
+    "meetStatus": "completed",
     "fabStart": "2026-09-24",
-    "fabEnd": "2026-10-05",
+    "fabEnd": "2026-10-07",
     "delDate": "2026-10-07",
     "surDone": "",
     "delStatus": "pending",
@@ -1713,8 +1713,7 @@
       "delDate": "fgsap2fsuboiu9bdmuoa9330kk",
       "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4"
     },
-    "isDraft": false,
-    "stage": "surgery-prep"
+    "isDraft": false
   },
   {
     "id": "SG-2026-040",
