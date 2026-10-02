@@ -1866,6 +1866,7 @@
     "id": "SG-2026-042",
     "pt": "Enas Saad",
     "dr": "DR-5436",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-DAVID",
     "recDate": "",
