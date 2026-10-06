@@ -1965,14 +1965,14 @@
     "surStatus": "not-scheduled",
     "schedNotes": "",
     "recDone": "",
-    "filesStatus": "pending",
+    "filesStatus": "complete",
     "filesNotes": "",
     "needsScan": false,
     "scanOrd": "",
     "scanRec": "",
     "prepNotes": "",
-    "meetDate": "",
-    "meetStatus": "not-scheduled",
+    "meetDate": "2026-10-08",
+    "meetStatus": "scheduled",
     "fabStart": "",
     "fabEnd": "",
     "delDate": "",
@@ -1991,8 +1991,7 @@
     "notes": "Waiting for scans for All on X case - YA\nOffice took the records, if additional records are needed please lmk.",
     "createdAt": "2026-10-06",
     "gcalEvents": {},
-    "isDraft": false,
-    "stage": "surgery-prep"
+    "isDraft": false
   },
   {
     "id": "SG-2026-045",
