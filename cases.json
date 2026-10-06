@@ -1164,7 +1164,8 @@
     "onHold": false,
     "holdReason": "",
     "holdNote": "",
-    "holdDate": ""
+    "holdDate": "",
+    "isComplete": true
   },
   {
     "id": "SG-2026-027",
