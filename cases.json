@@ -1158,13 +1158,13 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Closed case and charged for tx planning",
+    "notes": "Closed case and charged for tx planning -AC",
     "isDraft": true,
     "createdAt": "2026-08-04",
-    "onHold": true,
-    "holdReason": "other",
-    "holdNote": "Waiting for patient approval since last year",
-    "holdDate": "2026-08-04"
+    "onHold": false,
+    "holdReason": "",
+    "holdNote": "",
+    "holdDate": ""
   },
   {
     "id": "SG-2026-027",
