@@ -2085,6 +2085,11 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-10-06"
+    "createdAt": "2026-10-06",
+    "gcalEvents": {
+      "surDate": "j3ht0mmdn5rf95sr4hcijcimts",
+      "delDate": "dge8ai9popiklab3teosassgis"
+    },
+    "isDraft": false
   }
 ]
