@@ -1117,7 +1117,8 @@
     "onHold": true,
     "holdReason": "other",
     "holdNote": "NO reason in the portal",
-    "holdDate": "2026-08-04"
+    "holdDate": "2026-08-04",
+    "isComplete": true
   },
   {
     "id": "SG-2026-026",
