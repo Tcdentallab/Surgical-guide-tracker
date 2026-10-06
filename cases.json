@@ -1114,10 +1114,10 @@
     "notes": "Dr not proceeding with the case for now - AC",
     "isDraft": true,
     "createdAt": "2026-08-04",
-    "onHold": true,
-    "holdReason": "other",
-    "holdNote": "NO reason in the portal",
-    "holdDate": "2026-08-04",
+    "onHold": false,
+    "holdReason": "",
+    "holdNote": "",
+    "holdDate": "",
     "isComplete": true
   },
   {
