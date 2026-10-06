@@ -90,7 +90,7 @@
     "id": "SG-2026-003",
     "pt": "Carrisa Giles",
     "dr": "DR-4403",
-    "stage": "healing",
+    "stage": "surgery-appt",
     "guideType": "resin",
     "assignedTo": "TM-DAVID",
     "recDate": "2026-07-29",
@@ -127,14 +127,7 @@
     "finNotes": "",
     "notes": "Doctor out of office until aug 17th, will reach out then - AC\nDoctor meeting will be 8/19 at 5pm - AC",
     "createdAt": "2026-07-30",
-    "isDraft": false,
-    "gcalEvents": {
-      "recDate": "laq485oo6i4j1gc8m4qa4ru65c",
-      "onlineMeetDate": "ogg61oeeeelvh29nqpd47haou4",
-      "surDate": "bram2abk1p28bq58npppvk58e0",
-      "delDate": "m17vm8u5khe52l7e27omi2ejo8",
-      "finDecDate": "so19qv1o8qq9mv26p1e7rvlsf8"
-    }
+    "isDraft": false
   },
   {
     "id": "SG-2026-004",
@@ -229,7 +222,7 @@
       "delDate": "foq00k1i7nuvclee2ll5cn2lss",
       "finDecDate": "chq1fa4tepe9mpvkr7gojj2ui8"
     },
-    "stage": "healing"
+    "stage": "surgery-appt"
   },
   {
     "id": "SG-2026-006",
@@ -1762,7 +1755,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Dave taking records 9/17ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
+    "notes": "Dave taking records 9/17ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
     "createdAt": "2026-09-17",
     "gcalEvents": {
       "recDate": "jeep1840huao5mm6jvlv2t2rsc",
@@ -1836,7 +1829,7 @@
     "meetDeadline": "2026-09-07",
     "surDate": "2026-09-21",
     "surStatus": "scheduled",
-    "schedNotes": "TL TL2ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
+    "schedNotes": "TL TL2ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
     "recDone": "",
     "filesStatus": "pending",
     "filesNotes": "",
@@ -1924,7 +1917,7 @@
     "recDate": "",
     "recStatus": "not-scheduled",
     "onlineMeetDate": "2026-10-07",
-    "onlineMeetStatus": "scheduled",
+    "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "2026-10-06",
     "surDate": "2026-10-20",
     "surStatus": "scheduled",
@@ -1937,7 +1930,7 @@
     "scanRec": "",
     "prepNotes": "",
     "meetDate": "2026-10-06",
-    "meetStatus": "completed",
+    "meetStatus": "scheduled",
     "fabStart": "2026-10-08",
     "fabEnd": "2026-10-15",
     "delDate": "2026-10-15",
@@ -1956,9 +1949,7 @@
     "notes": "",
     "createdAt": "2026-10-02",
     "gcalEvents": {
-      "onlineMeetDate": "mffnlqhmrod5feh0icaq3oin70",
-      "surDate": "rt90aaatdk8kjrjdjke10qvbg0",
-      "delDate": "73auuv5i51463uf2lf3k8kna7k"
+      "onlineMeetDate": "mffnlqhmrod5feh0icaq3oin70"
     }
   }
 ]
