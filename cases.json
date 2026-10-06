@@ -196,7 +196,7 @@
     "meetStatus": "completed",
     "fabStart": "2026-09-23",
     "fabEnd": "2026-09-28",
-    "delDate": "2026-09-30",
+    "delDate": "2026-09-25",
     "surDone": "",
     "delStatus": "delivered",
     "surNotes": "",
@@ -219,7 +219,7 @@
     "gcalEvents": {
       "onlineMeetDate": "v9bv13sl9le6ffk79qljmqas2k",
       "surDate": "1hqjpcpdvhs5j5olt9idturofg",
-      "delDate": "mn070qkej5u4lbr8fikql7oi78",
+      "delDate": "ilgbnnj5jhda5uluol5942f2rc",
       "finDecDate": "chq1fa4tepe9mpvkr7gojj2ui8"
     },
     "stage": "surgery-appt"
@@ -1111,7 +1111,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "",
+    "notes": "Dr not proceeding with the case for now - AC",
     "isDraft": true,
     "createdAt": "2026-08-04",
     "onHold": true,
@@ -1706,20 +1706,15 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Have not yet recieved the case from the office. - YA\nOffice asked to proceed with case - AC\nPer guided smiles deliver ETA is 10/7 - AC\nON HOLD due to medical, she will be rescheduled to Feb- YA",
+    "notes": "Have not yet recieved the case from the office. - YA\nOffice asked to proceed with case - AC\nPer guided smiles deliver ETA is 10/7 - AC",
     "createdAt": "2026-09-16",
     "gcalEvents": {
       "surDate": "prtr6dhgj7j6tfvgn137nvvjm0",
       "delDate": "fgsap2fsuboiu9bdmuoa9330kk",
-      "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4",
-      "onlineMeetDate": "tblrt8kr7oi32v0fj448as07q4"
+      "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4"
     },
     "isDraft": false,
-    "stage": "surgery-prep",
-    "onHold": true,
-    "holdReason": "medical",
-    "holdNote": "",
-    "holdDate": "2026-10-06"
+    "stage": "surgery-prep"
   },
   {
     "id": "SG-2026-040",
@@ -1760,7 +1755,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Dave taking records 9/17ÃÂÃÂÃÂÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
+    "notes": "Dave taking records 9/17ÃÂÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
     "createdAt": "2026-09-17",
     "gcalEvents": {
       "recDate": "jeep1840huao5mm6jvlv2t2rsc",
@@ -1780,7 +1775,7 @@
     "assignedTo": "TM-ARINA",
     "recDate": "",
     "recStatus": "not-scheduled",
-    "onlineMeetDate": "2026-09-23",
+    "onlineMeetDate": "",
     "onlineMeetStatus": "completed",
     "meetDeadline": "2026-09-10",
     "surDate": "2026-09-30",
@@ -1806,7 +1801,7 @@
     "fuNotes": "",
     "trackFinal": false,
     "finDec": "pending",
-    "finDecDate": "2027-01-13",
+    "finDecDate": "",
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
@@ -1815,9 +1810,7 @@
     "isDraft": false,
     "gcalEvents": {
       "surDate": "lg5udhtdbuv1a9ttk7ghtiitak",
-      "delDate": "jr0a0h08nopl3t0udiacfrfih4",
-      "onlineMeetDate": "c8vgp9d0jrnvgttohsjm30ojuk",
-      "finDecDate": "rek2agu17nm111e7pqioa2l2n8"
+      "delDate": "jr0a0h08nopl3t0udiacfrfih4"
     }
   },
   {
@@ -1834,7 +1827,7 @@
     "meetDeadline": "2026-09-07",
     "surDate": "2026-09-21",
     "surStatus": "scheduled",
-    "schedNotes": "TL TL2ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
+    "schedNotes": "TL TL2ÃÂÃÂÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
     "recDone": "",
     "filesStatus": "pending",
     "filesNotes": "",
@@ -1921,7 +1914,7 @@
     "assignedTo": "TM-ANDREI",
     "recDate": "",
     "recStatus": "not-scheduled",
-    "onlineMeetDate": "2026-10-07",
+    "onlineMeetDate": "",
     "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "2026-10-06",
     "surDate": "2026-10-20",
@@ -1953,10 +1946,7 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-10-02",
-    "isDraft": false,
-    "gcalEvents": {
-      "onlineMeetDate": "mffnlqhmrod5feh0icaq3oin70"
-    }
+    "isDraft": false
   },
   {
     "id": "SG-2026-044",
@@ -1999,8 +1989,7 @@
     "notes": "Waiting for scans for All on X case - YA\nOffice took the records, if additional records are needed please lmk.",
     "createdAt": "2026-10-06",
     "gcalEvents": {},
-    "isDraft": false,
-    "stage": "surgery-prep"
+    "isDraft": false
   },
   {
     "id": "SG-2026-045",
@@ -2085,7 +2074,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Upper All on X Chrome Guided - YA \nScans will be uploaded 10/07 - YA",
+    "notes": "Upper All on X Chrome Guided - YAÂ \nScans will be uploaded 10/07 - YA",
     "createdAt": "2026-10-06",
     "gcalEvents": {
       "surDate": "j3ht0mmdn5rf95sr4hcijcimts",
