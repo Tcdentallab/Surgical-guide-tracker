@@ -1770,6 +1770,7 @@
     "id": "SG-2026-041",
     "pt": "Joy Atkinson",
     "dr": "DR-2292",
+    "stage": "healing",
     "guideType": "chrome",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -1809,7 +1810,9 @@
     "isDraft": false,
     "gcalEvents": {
       "surDate": "lg5udhtdbuv1a9ttk7ghtiitak",
-      "delDate": "jr0a0h08nopl3t0udiacfrfih4"
+      "delDate": "jr0a0h08nopl3t0udiacfrfih4",
+      "onlineMeetDate": "c8vgp9d0jrnvgttohsjm30ojuk",
+      "finDecDate": "rek2agu17nm111e7pqioa2l2n8"
     }
   },
   {
