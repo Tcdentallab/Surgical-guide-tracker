@@ -196,7 +196,7 @@
     "meetStatus": "completed",
     "fabStart": "2026-09-23",
     "fabEnd": "2026-09-28",
-    "delDate": "2026-09-25",
+    "delDate": "2026-09-30",
     "surDone": "",
     "delStatus": "delivered",
     "surNotes": "",
@@ -219,7 +219,7 @@
     "gcalEvents": {
       "onlineMeetDate": "v9bv13sl9le6ffk79qljmqas2k",
       "surDate": "1hqjpcpdvhs5j5olt9idturofg",
-      "delDate": "ilgbnnj5jhda5uluol5942f2rc",
+      "delDate": "mn070qkej5u4lbr8fikql7oi78",
       "finDecDate": "chq1fa4tepe9mpvkr7gojj2ui8"
     },
     "stage": "surgery-appt"
@@ -1757,7 +1757,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Dave taking records 9/17ÃÂÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
+    "notes": "Dave taking records 9/17ÃÂÃÂÃÂÃÂ \nSurgery scheduled 9/30\nType 2 - confirm with Dave - YA",
     "createdAt": "2026-09-17",
     "gcalEvents": {
       "recDate": "jeep1840huao5mm6jvlv2t2rsc",
@@ -1777,7 +1777,7 @@
     "assignedTo": "TM-ARINA",
     "recDate": "",
     "recStatus": "not-scheduled",
-    "onlineMeetDate": "",
+    "onlineMeetDate": "2026-09-23",
     "onlineMeetStatus": "completed",
     "meetDeadline": "2026-09-10",
     "surDate": "2026-09-30",
@@ -1803,7 +1803,7 @@
     "fuNotes": "",
     "trackFinal": false,
     "finDec": "pending",
-    "finDecDate": "",
+    "finDecDate": "2027-01-13",
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
@@ -1812,7 +1812,9 @@
     "isDraft": false,
     "gcalEvents": {
       "surDate": "lg5udhtdbuv1a9ttk7ghtiitak",
-      "delDate": "jr0a0h08nopl3t0udiacfrfih4"
+      "delDate": "jr0a0h08nopl3t0udiacfrfih4",
+      "onlineMeetDate": "c8vgp9d0jrnvgttohsjm30ojuk",
+      "finDecDate": "rek2agu17nm111e7pqioa2l2n8"
     }
   },
   {
@@ -1829,7 +1831,7 @@
     "meetDeadline": "2026-09-07",
     "surDate": "2026-09-21",
     "surStatus": "scheduled",
-    "schedNotes": "TL TL2ÃÂÃÂÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
+    "schedNotes": "TL TL2ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  MARY OTTO STL, Surgery Date: 09/21/2026 at 10am Pacific Standard Time, SHADE: will be given by Dr. Guy Sutton on 09/18/2026 ( He will be seeing her at his office) PLEASE FABRICATE : Window Guide Following Dr. Qaqish Preferences. Thank You. Mayza - Slack notes YA",
     "recDone": "",
     "filesStatus": "pending",
     "filesNotes": "",
@@ -1916,7 +1918,7 @@
     "assignedTo": "TM-ANDREI",
     "recDate": "",
     "recStatus": "not-scheduled",
-    "onlineMeetDate": "",
+    "onlineMeetDate": "2026-10-07",
     "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "2026-10-06",
     "surDate": "2026-10-20",
@@ -1948,7 +1950,10 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-10-02",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "onlineMeetDate": "mffnlqhmrod5feh0icaq3oin70"
+    }
   },
   {
     "id": "SG-2026-044",
@@ -2077,7 +2082,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "Upper All on X Chrome Guided - YAÂ \nScans will be uploaded 10/07 - YA",
+    "notes": "Upper All on X Chrome Guided - YAÃÂ \nScans will be uploaded 10/07 - YA",
     "createdAt": "2026-10-06",
     "gcalEvents": {
       "surDate": "j3ht0mmdn5rf95sr4hcijcimts",
