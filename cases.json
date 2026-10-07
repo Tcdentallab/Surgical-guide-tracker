@@ -1697,7 +1697,7 @@
     "fabEnd": "2026-10-07",
     "delDate": "2026-10-07",
     "surDone": "",
-    "delStatus": "pending",
+    "delStatus": "shipped",
     "surNotes": "",
     "fuDate": "",
     "fuStatus": "pending",
@@ -1716,7 +1716,7 @@
       "finDecDate": "pbh1a5414ip4pbaer7pb20m5c4"
     },
     "isDraft": false,
-    "stage": "surgery-prep"
+    "stage": "surgery-appt"
   },
   {
     "id": "SG-2026-040",
