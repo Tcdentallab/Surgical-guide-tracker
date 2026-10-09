@@ -1992,7 +1992,7 @@
     "createdAt": "2026-10-06",
     "gcalEvents": {},
     "isDraft": false,
-    "stage": "surgery-prep",
+    "stage": "pre-records",
     "onHold": true,
     "holdReason": "missing-files",
     "holdNote": "",
