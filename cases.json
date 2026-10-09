@@ -2042,6 +2042,7 @@
     "id": "SG-2026-046",
     "pt": "Virginia VanDelist",
     "dr": "DR-5677",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
