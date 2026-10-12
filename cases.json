@@ -1721,7 +1721,11 @@
       "onlineMeetDate": "32f4t03a9leicn982k847mn4k4"
     },
     "isDraft": false,
-    "stage": "surgery-appt"
+    "stage": "surgery-appt",
+    "onHold": true,
+    "holdReason": "medical",
+    "holdNote": "",
+    "holdDate": "2026-10-12"
   },
   {
     "id": "SG-2026-040",
