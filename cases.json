@@ -312,7 +312,11 @@
       "delDate": "ao4le1iqpulepeoou8u38jpsms",
       "finDecDate": "eg5l59i05tt1jplgbk1d6dbmag"
     },
-    "isDraft": true
+    "isDraft": true,
+    "onHold": true,
+    "holdReason": "cancelled",
+    "holdNote": "Patient will be rescheduled per doctor",
+    "holdDate": "2026-10-12"
   },
   {
     "id": "SG-2026-008",
