@@ -2051,6 +2051,9 @@
     "finNotes": "",
     "notes": "",
     "isDraft": true,
-    "createdAt": "2026-10-15"
+    "createdAt": "2026-10-15",
+    "gcalEvents": {
+      "recDate": "r23ifgk335gk8a7qfun1a6ee2o"
+    }
   }
 ]
