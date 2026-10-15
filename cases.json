@@ -1823,7 +1823,12 @@
     "finNotes": "",
     "notes": "Submitted case 10/6 to guided smiles. - AC\nCalled 10/7 spoke w/Michelle she said case will be shipped 10/12, we will receive 10/13 -AC",
     "createdAt": "2026-10-01",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "onlineMeetDate": "23mef19qk62k6elnnpkn4mab58",
+      "surDate": "aqvb799hci5g7sr5jfiko1vthc",
+      "delDate": "v9am566c27nvhpcr848neg23ik"
+    }
   },
   {
     "id": "SG-2026-043",
