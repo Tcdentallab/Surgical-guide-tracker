@@ -2014,6 +2014,7 @@
     "id": "SG-2026-025",
     "pt": "Jessica Abel",
     "dr": "",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
@@ -2049,6 +2050,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-10-16"
+    "createdAt": "2026-10-16",
+    "isDraft": false
   }
 ]
