@@ -1923,7 +1923,7 @@
     "id": "SG-2026-045",
     "pt": "William Bunnell",
     "dr": "DR-5654",
-    "stage": "records-appt",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
@@ -1961,7 +1961,7 @@
     "notes": "Pre Surgery Record Taking 10/20 - YA",
     "createdAt": "2026-10-06",
     "gcalEvents": {},
-    "isDraft": false
+    "isDraft": true
   },
   {
     "id": "SG-2026-046",
