@@ -719,7 +719,12 @@
     "finNotes": "",
     "notes": "lAC",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": false,
+    "gcalEvents": {
+      "onlineMeetDate": "9qjlscln3u1nd7tdj58luogfmk",
+      "surDate": "895rloropv3n7og0m6c4trm89g",
+      "delDate": "sgb2mjipskh83kt8nlbe4534f8"
+    }
   },
   {
     "id": "SG-2026-017",
