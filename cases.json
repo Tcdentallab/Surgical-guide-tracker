@@ -1082,7 +1082,8 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-04",
-    "isDraft": false
+    "isDraft": false,
+    "isComplete": true
   },
   {
     "id": "SG-2026-027",
