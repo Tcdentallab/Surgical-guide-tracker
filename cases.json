@@ -949,7 +949,12 @@
     "finNotes": "",
     "notes": "",
     "isDraft": true,
-    "createdAt": "2026-08-04"
+    "createdAt": "2026-08-04",
+    "gcalEvents": {
+      "surDate": "llt0banqclj2quk042cret5dmg",
+      "delDate": "obct84q6b2eken91q7t1tiduvo",
+      "finDecDate": "rbrk6b3691jkb9om77s5d4r2eo"
+    }
   },
   {
     "id": "SG-2026-022",
