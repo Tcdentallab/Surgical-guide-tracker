@@ -358,7 +358,12 @@
     "finFabDel": "2026-09-04",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-07-30"
+    "createdAt": "2026-07-30",
+    "gcalEvents": {
+      "recDate": "cp855oiodcblrcbm6rk09qj8qo",
+      "finDecDate": "ftrnlchh3ofqn5s1n2s8upv9kk"
+    },
+    "isDraft": false
   },
   {
     "id": "SG-2026-009",
