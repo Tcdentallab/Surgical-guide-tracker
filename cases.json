@@ -1045,7 +1045,7 @@
     "id": "SG-2026-024",
     "pt": "Michael Currigan",
     "dr": "DR-2307",
-    "stage": "healing",
+    "stage": "final-resto",
     "guideType": "none",
     "assignedTo": "TM-YANA",
     "recDate": "",
@@ -1082,7 +1082,7 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-08-04",
-    "isDraft": false,
+    "isDraft": true,
     "isComplete": true,
     "gcalEvents": {
       "surDate": "8u5mp3psl5fag8runfcgp56j2o",
