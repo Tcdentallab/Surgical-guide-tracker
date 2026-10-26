@@ -1083,7 +1083,11 @@
     "notes": "",
     "createdAt": "2026-08-04",
     "isDraft": false,
-    "isComplete": true
+    "isComplete": true,
+    "gcalEvents": {
+      "surDate": "8u5mp3psl5fag8runfcgp56j2o",
+      "finDecDate": "7uqr7b2n1o95oujhp5v9ggekss"
+    }
   },
   {
     "id": "SG-2026-027",
