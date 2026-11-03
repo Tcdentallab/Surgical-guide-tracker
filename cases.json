@@ -2128,6 +2128,11 @@
     "finNotes": "",
     "notes": "",
     "isDraft": true,
-    "createdAt": "2026-11-03"
+    "createdAt": "2026-11-03",
+    "gcalEvents": {
+      "surDate": "bnd2amlq9cfaaurm1oork0e1sc",
+      "delDate": "qf1rglhevl1cfn1o2g67b4msuo",
+      "finDecDate": "8067fkahmmace1h500at902h0s"
+    }
   }
 ]
