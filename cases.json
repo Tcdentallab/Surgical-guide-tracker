@@ -550,7 +550,8 @@
     "onHold": true,
     "holdReason": "doctor",
     "holdNote": "Waiting for DR to respond",
-    "holdDate": "2026-11-04"
+    "holdDate": "2026-11-04",
+    "gcalEvents": {}
   },
   {
     "id": "SG-2026-013",
@@ -2089,7 +2090,7 @@
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
-    "notes": "",
+    "notes": "Yana follow up on PT surgery date",
     "createdAt": "2026-10-16",
     "isDraft": false,
     "gcalEvents": {
