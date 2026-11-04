@@ -546,7 +546,11 @@
     "notes": "",
     "createdAt": "2026-08-04",
     "isDraft": false,
-    "isComplete": false
+    "isComplete": false,
+    "onHold": true,
+    "holdReason": "doctor",
+    "holdNote": "Waiting for DR to respond",
+    "holdDate": "2026-11-04"
   },
   {
     "id": "SG-2026-013",
