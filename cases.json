@@ -2139,6 +2139,7 @@
     "id": "SG-2026-047",
     "pt": "Jennifer Herrera",
     "dr": "DR-MV9X10GL",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ANDREI",
     "recDate": "",
@@ -2174,6 +2175,7 @@
     "finFabDel": "",
     "finNotes": "",
     "notes": "",
-    "createdAt": "2026-11-04"
+    "createdAt": "2026-11-04",
+    "isDraft": false
   }
 ]
