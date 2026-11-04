@@ -693,7 +693,7 @@
     "id": "SG-2026-016",
     "pt": "Alyssa Adams",
     "dr": "DR-5654",
-    "stage": "healing",
+    "stage": "mid-surgery-fu",
     "guideType": "chrome",
     "assignedTo": "TM-ASHLEY",
     "recDate": "",
@@ -730,7 +730,7 @@
     "finNotes": "",
     "notes": "Called Hometown Dental to ask if Dr has already seen patient and if shes ready to go to final - YA",
     "createdAt": "2026-08-04",
-    "isDraft": false,
+    "isDraft": true,
     "gcalEvents": {
       "onlineMeetDate": "9qjlscln3u1nd7tdj58luogfmk",
       "surDate": "895rloropv3n7og0m6c4trm89g",
