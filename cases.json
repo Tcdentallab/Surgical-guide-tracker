@@ -265,7 +265,10 @@
     "finNotes": "",
     "notes": "",
     "createdAt": "2026-07-30",
-    "gcalEvents": {}
+    "gcalEvents": {
+      "recDate": "ek6ji9vprgqk80qt4o2hbu6fk0",
+      "finDecDate": "92r2943uq5m2bkhbbacq91dbko"
+    }
   },
   {
     "id": "SG-2026-007",
