@@ -2113,6 +2113,7 @@
     "id": "SG-2026-047",
     "pt": "Jennifer Herrera",
     "dr": "DR-MV9X10GL",
+    "stage": "surgery-prep",
     "guideType": "chrome",
     "assignedTo": "TM-ARINA",
     "recDate": "",
