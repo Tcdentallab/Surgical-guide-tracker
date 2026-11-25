@@ -845,7 +845,7 @@ function isConnected(){return !!(cfg.token&&cfg.owner&&cfg.repo);}
 function setSyncPill(s,l){const p=document.getElementById('syncPill'),lb=document.getElementById('syncLabel');p.className='sync-pill '+s;lb.textContent=l;p.querySelector('.sync-dot').className='sync-dot'+(s==='syncing'?' pulse':'');}
 function ghUrl(p){return `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${p}`;}
 function ghHdrs(){return {'Authorization':'token '+cfg.token,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'};}
-async function ghRead(path){const r=await fetch(ghUrl(path),{headers:ghHdrs()});if(r.status===404)return{content:null,sha:null};if(!r.ok)throw new Error(`GitHub read failed: ${r.status}`);const d=await r.json();let txt;if(d.content&&d.encoding==='base64'){txt=decodeURIComponent(escape(atob(d.content.replace(/\n/g,''))));}else{const r2=await fetch(ghUrl(path),{headers:Object.assign({},ghHdrs(),{'Accept':'application/vnd.github.raw'})});if(!r2.ok)throw new Error(`GitHub read failed: ${r2.status}`);txt=await r2.text();}return{content:JSON.parse(txt),sha:d.sha};}
+async function ghRead(path){const r=await fetch(ghUrl(path)+'?ref='+encodeURIComponent(cfg.branch||'main')+'&_='+Date.now(),{headers:ghHdrs(),cache:'no-store'});if(r.status===404)return{content:null,sha:null};if(!r.ok)throw new Error(`GitHub read failed: ${r.status}`);const d=await r.json();let txt;if(d.content&&d.encoding==='base64'){txt=decodeURIComponent(escape(atob(d.content.replace(/\n/g,''))));}else{const r2=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/git/blobs/${d.sha}`,{headers:Object.assign({},ghHdrs(),{'Accept':'application/vnd.github.raw'}),cache:'no-store'});if(!r2.ok)throw new Error(`GitHub read failed: ${r2.status}`);txt=await r2.text();}return{content:JSON.parse(txt),sha:d.sha};}
 async function ghWrite(path,data,sha,msg){const body={message:msg,content:btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))),branch:cfg.branch||'main'};if(sha)body.sha=sha;const r=await fetch(ghUrl(path),{method:'PUT',headers:ghHdrs(),body:JSON.stringify(body)});if(!r.ok){const e=await r.json();throw new Error(e.message||'Write failed');}return r.json();}
 
 async function loadCases(){
@@ -866,7 +866,7 @@ localStorage.setItem(TEAM_KEY,JSON.stringify(team));
   setSyncPill('syncing','Loading...');
   try{
     const[cr,dr,tr]=await Promise.all([ghRead('cases.json'),ghRead('doctors.json'),ghRead('team.json')]);
-    cases=cr.content||[];doctors=dr.content||[];team=tr.content||{};_sha.cases=cr.sha;_sha.doctors=dr.sha;_sha.team=tr.sha;_sha.casesLoaded=true;
+    if((cr.content!==null&&!Array.isArray(cr.content))||(dr.content!==null&&!Array.isArray(dr.content)))throw new Error('Data file is not a list');cases=cr.content||[];doctors=dr.content||[];team=tr.content||{};_sha.cases=cr.sha;_sha.doctors=dr.sha;_sha.team=tr.sha;_sha.casesLoaded=true;
     // Apply hardcoded defaults if team.json is empty
     // Slack webhook must be configured per-workspace in Settings — no hardcoded default (was flagged as an exposed secret).
     if(!team.members||!team.members.length) team.members=[
@@ -1052,7 +1052,7 @@ function caseInWeek(c){
   return hasAnyDate?inRange:true; // nothing scheduled yet — always show so it doesn't get lost
 }
 
-function render(){
+function render(){if(!Array.isArray(cases))cases=[];if(!Array.isArray(doctors))doctors=[];
   const f=getFiltered();const board=document.getElementById('board');board.innerHTML='';
   STAGES.forEach(st=>{
     const cols=f.filter(c=>(c.stage||'pre-records')===st.id);
@@ -1550,7 +1550,7 @@ function saveDr(){
   persistDoctors(`${drEditId?'Update':'Add'} doctor: ${name}`);closeDrEdit();renderDoctors();populateDrDropdown(data.id);toast(`✓ Dr. ${name} saved!`);
 }
 function deleteDr(){if(!confirm('Remove this doctor?'))return;doctors=doctors.filter(d=>d.id!==drEditId);persistDoctors('Remove doctor');closeDrEdit();renderDoctors();toast('Doctor removed');}
-function renderDoctors(){
+function renderDoctors(){if(!Array.isArray(cases))cases=[];if(!Array.isArray(doctors))doctors=[];
   const q=(document.getElementById('drSearch')?.value||'').toLowerCase();
   const grid=document.getElementById('drGrid'),empty=document.getElementById('drEmpty');
   const filtered=doctors.filter(d=>!q||[d.name,d.practice,d.contact].some(v=>(v||'').toLowerCase().includes(q)));
@@ -2001,7 +2001,7 @@ async function gcalSyncAll(){
   render();toast('📅 All cases pushed to calendar');
 }
 
-async function gcalPullAll(){
+async function gcalPullAll(){if(!Array.isArray(cases))cases=[];if(!Array.isArray(doctors))doctors=[];
   if(!gcalIsConnected())return;
   const token=await gcalEnsureToken();if(!token)return;
   const calId=encodeURIComponent(gcalCfg.calId||'primary');
