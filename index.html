@@ -88,15 +88,15 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',-app
 .stat-num{font-size:30px;font-weight:800;line-height:1;margin-bottom:4px;}
 .stat-label{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.5px;}
 .stat-icon{position:absolute;top:12px;right:12px;font-size:22px;opacity:.2;}
-.board{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;align-items:start;}
+.board{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;align-items:start;}
 .col{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:var(--shadow-sm);}
 .col-head{padding:12px 14px;border-bottom:2px solid var(--border);}
 .col-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;}
 .col-name{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;}
 .col-count{font-size:11px;background:var(--s2);color:var(--muted);padding:2px 8px;border-radius:5px;font-weight:600;}
 .col-sub{font-size:10px;padding:2px 8px;border-radius:4px;font-weight:600;display:inline-block;}
-.col-cards{padding:8px;display:flex;flex-direction:column;gap:8px;min-height:80px;}
-.case-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px;cursor:pointer;transition:transform .15s var(--ease-out),background-color .18s ease,border-color .15s ease,color .15s ease,box-shadow .2s ease;position:relative;box-shadow:var(--shadow-sm);}
+.col-cards{padding:8px;display:flex;flex-direction:column;gap:6px;min-height:80px;}
+.case-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px;cursor:pointer;transition:transform .15s var(--ease-out),background-color .18s ease,border-color .15s ease,color .15s ease,box-shadow .2s ease;position:relative;box-shadow:var(--shadow-sm);}
 .case-card:hover{border-color:var(--blue);box-shadow:var(--shadow-md);transform:translateY(-1px);}
 .card-accent{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:5px 0 0 5px;}
 .card-id{font-size:10px;color:var(--muted);font-weight:600;margin-bottom:4px;}
@@ -120,6 +120,7 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',-app
 .progress-bar{height:4px;background:var(--border);border-radius:2px;overflow:hidden;margin-top:8px;}
 .progress-fill{height:100%;border-radius:2px;transition:width .3s;}
 .urgent-dot{position:absolute;top:10px;right:10px;width:8px;height:8px;border-radius:50%;background:var(--rose);animation:blink 1.5s infinite;}
+.card-avatar{position:absolute;top:10px;right:10px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#fff;letter-spacing:.2px;flex-shrink:0;}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:.55;}}
 .empty-col{padding:16px 8px;text-align:center;color:var(--muted);font-size:12px;border:2px dashed var(--border);border-radius:4px;cursor:pointer;transition:transform .15s var(--ease-out),background-color .18s ease,border-color .15s ease,color .15s ease,box-shadow .2s ease;}
 .empty-col:hover{border-color:var(--blue);color:var(--blue);}
@@ -844,7 +845,7 @@ function isConnected(){return !!(cfg.token&&cfg.owner&&cfg.repo);}
 function setSyncPill(s,l){const p=document.getElementById('syncPill'),lb=document.getElementById('syncLabel');p.className='sync-pill '+s;lb.textContent=l;p.querySelector('.sync-dot').className='sync-dot'+(s==='syncing'?' pulse':'');}
 function ghUrl(p){return `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${p}`;}
 function ghHdrs(){return {'Authorization':'token '+cfg.token,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'};}
-async function ghRead(path){const r=await fetch(ghUrl(path),{headers:ghHdrs()});if(r.status===404)return{content:null,sha:null};if(!r.ok)throw new Error(`GitHub read failed: ${r.status}`);const d=await r.json();return{content:JSON.parse(atob(d.content.replace(/\n/g,''))),sha:d.sha};}
+async function ghRead(path){const r=await fetch(ghUrl(path),{headers:ghHdrs()});if(r.status===404)return{content:null,sha:null};if(!r.ok)throw new Error(`GitHub read failed: ${r.status}`);const d=await r.json();let txt;if(d.content&&d.encoding==='base64'){txt=decodeURIComponent(escape(atob(d.content.replace(/\n/g,''))));}else{const r2=await fetch(ghUrl(path),{headers:Object.assign({},ghHdrs(),{'Accept':'application/vnd.github.raw'})});if(!r2.ok)throw new Error(`GitHub read failed: ${r2.status}`);txt=await r2.text();}return{content:JSON.parse(txt),sha:d.sha};}
 async function ghWrite(path,data,sha,msg){const body={message:msg,content:btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))),branch:cfg.branch||'main'};if(sha)body.sha=sha;const r=await fetch(ghUrl(path),{method:'PUT',headers:ghHdrs(),body:JSON.stringify(body)});if(!r.ok){const e=await r.json();throw new Error(e.message||'Write failed');}return r.json();}
 
 async function loadCases(){
@@ -1184,24 +1185,34 @@ function cardHtml(c,color){
   if(c.trackFinal&&c.finDec==='pending'&&['mid-surgery-fu','final-resto','healing'].includes(c.stage||'')) badges.push(`<span class="badge badge-followup" style="font-size:10px;padding:1px 6px;"><i class="ph-bold ph-phone-call"></i> Call</span>`);
   if(c.isDraft) badges.push(`<span class="badge-draft" style="font-size:10px;padding:1px 6px;">Draft</span>`);
   if(c.isComplete) badges.push(`<span class="badge" style="background:var(--green-lt);color:var(--green);border:1px solid rgba(42,122,58,.3);font-size:10px;padding:1px 6px;border-radius:4px;font-weight:700;">✓ Complete</span>`);
-  // Sub-status
+  // Sub-status — merged into the badges row instead of its own line
   const sub=getSubStatus(c);
-  const subHtml=sub?`<div style="margin-top:4px;"><span class="badge-sub ${sub.cls}" style="font-size:10px;">${sub.label}</span></div>`:'';
-  // Assignee
+  if(sub) badges.push(`<span class="badge-sub ${sub.cls}" style="font-size:10px;">${sub.label}</span>`);
+  // Assignee — shown as an initials avatar in the corner instead of a text line
   const assignee=getTeamMember(c.assignedTo);
-  const assigneeHtml=assignee?`<div style="font-size:11px;color:var(--muted);margin-top:4px;"><i class="ph ph-user"></i> ${assignee.name}</div>`:'';
+  const metaRow=`<div class="card-doctor" style="font-size:11px;color:var(--muted);margin-bottom:5px;padding-right:26px;">${drName}</div>`;
+  const avatarHtml=assignee?`<div class="card-avatar" title="${assignee.name}" style="background:${avatarColor(assignee.name)}">${initials(assignee.name)}</div>`:'';
   const partnerMember=c.partnerId?getTeamMember(c.partnerId):null;
   const partnerHtml=partnerMember?`<div style="font-size:11px;color:var(--purple);margin-top:2px;font-weight:600;"><i class="ph ph-handshake"></i> ${partnerMember.name}</div>`:'';
   return `<div class="case-card${c.onHold?' on-hold':''}" draggable="${isPartner()?'false':'true'}" data-id="${c.id}" onclick="openDet('${c.id}')" ondragstart="onDragStart(event,'${c.id}')" ondragend="onDragEnd(event)">
     <div class="card-accent" style="background:${color}"></div>
-    <div class="card-name" style="font-size:13px;font-weight:700;padding-right:8px;line-height:1.2;">${c.pt||'—'}</div>
-    <div class="card-doctor" style="font-size:11px;color:var(--muted);margin-bottom:4px;">${drName}</div>
-    ${badges.length?`<div class="card-badges" style="margin-bottom:3px;">${badges.join('')}</div>`:''}
-    ${subHtml}
-    ${assigneeHtml}
+    ${avatarHtml}
+    <div class="card-name" style="font-size:13px;font-weight:700;padding-right:26px;line-height:1.2;margin-bottom:3px;">${c.pt||'—'}</div>
+    ${metaRow}
+    ${badges.length?`<div class="card-badges" style="display:flex;flex-wrap:wrap;gap:4px;">${badges.join('')}</div>`:''}
     ${partnerHtml}
     ${dateRow}
   </div>`;
+}
+function initials(name){
+  const parts=(name||'').trim().split(/\s+/).filter(Boolean);
+  if(!parts.length)return '?';
+  return parts.length===1?parts[0].slice(0,2).toUpperCase():(parts[0][0]+parts[parts.length-1][0]).toUpperCase();
+}
+const AVATAR_COLORS=['#1d4ed8','#0e7490','#7c3aed','#be123c','#c8842f','#15803d','#334155'];
+function avatarColor(name){
+  let h=0;for(let i=0;i<(name||'').length;i++)h=(h*31+name.charCodeAt(i))>>>0;
+  return AVATAR_COLORS[h%AVATAR_COLORS.length];
 }
 
 function calcProg(c){const steps=[c.recStatus==='completed',c.filesStatus==='complete',c.meetStatus==='completed',['surgery-appt','healing','mid-surgery-fu','final-resto'].includes(c.stage||''),c.guideType==='none'||c.delStatus==='delivered',c.surStatus==='completed',c.fuStatus==='completed',!c.trackFinal||c.finDec!=='pending'];return Math.round(steps.filter(Boolean).length/steps.length*100);}
