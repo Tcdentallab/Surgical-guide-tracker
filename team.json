@@ -1,4 +1,35 @@
 {
   "webhookUrl": "",
-  "members": []
+  "members": [
+    {
+      "id": "TM-ASHLEY",
+      "name": "Ashley Stieben",
+      "slackId": "U0BL64ASS2D"
+    },
+    {
+      "id": "TM-DAVID",
+      "name": "David Mai",
+      "slackId": "U01F34ECN06"
+    },
+    {
+      "id": "TM-PETER",
+      "name": "Peter Phan",
+      "slackId": "U01FJ79E9N0"
+    },
+    {
+      "id": "TM-YANA",
+      "name": "Yana",
+      "slackId": "U049E611VE3"
+    },
+    {
+      "id": "TM-ARINA",
+      "name": "Arina Cazac",
+      "slackId": "U08JXGG7VEU"
+    },
+    {
+      "id": "TM-ANDREI",
+      "name": "Andrei Slatineanu",
+      "slackId": "U01JX34UZNU"
+    }
+  ]
 }
