@@ -1612,7 +1612,7 @@
     "fuNotes": "",
     "trackFinal": false,
     "finDec": "pending",
-    "finDecDate": "",
+    "finDecDate": "2027-01-31",
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
@@ -1622,7 +1622,8 @@
     "gcalEvents": {
       "onlineMeetDate": "dl3toun8g6hkhii05sfeadp6fk",
       "surDate": "7tgg16mgoqjq6djq2nr8eli49k",
-      "delDate": "nq2b7496d95sugip823uv3i3uo"
+      "delDate": "nq2b7496d95sugip823uv3i3uo",
+      "finDecDate": "bmr2894fip14k386af5vf34vb8"
     }
   },
   {
@@ -1934,7 +1935,7 @@
     "onlineMeetDate": "",
     "onlineMeetStatus": "not-scheduled",
     "meetDeadline": "",
-    "surDate": "",
+    "surDate": "2026-12-01",
     "surStatus": "not-scheduled",
     "schedNotes": "",
     "recDone": "",
@@ -1948,7 +1949,7 @@
     "meetStatus": "not-scheduled",
     "fabStart": "",
     "fabEnd": "",
-    "delDate": "",
+    "delDate": "2026-11-26",
     "surDone": "",
     "delStatus": "pending",
     "surNotes": "",
@@ -1957,13 +1958,17 @@
     "fuNotes": "",
     "trackFinal": false,
     "finDec": "pending",
-    "finDecDate": "",
+    "finDecDate": "2027-02-24",
     "finFabStart": "",
     "finFabDel": "",
     "finNotes": "",
     "notes": "Pre Surgery Record Taking 10/20 - YA\nPt schedueld for surgery 12/1 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 8:00 am - YA",
     "createdAt": "2026-10-06",
-    "gcalEvents": {},
+    "gcalEvents": {
+      "surDate": "nk05f33cokbal4kik4f1pgvoag",
+      "delDate": "c1dc2ch2c048p8cgh7rocsegjc",
+      "finDecDate": "f7od1d8488gc2al0oofhssmbo8"
+    },
     "isDraft": true
   },
   {
