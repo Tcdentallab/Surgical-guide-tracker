@@ -850,7 +850,7 @@ async function ghWrite(path,data,sha,msg){const body={message:msg,content:btoa(u
 
 async function loadCases(){
   doctors=JSON.parse(localStorage.getItem(DR_KEY)||'[]');
-  team=JSON.parse(localStorage.getItem(TEAM_KEY)||'{}');
+  team=JSON.parse(localStorage.getItem(TEAM_KEY)||'{}');team.webhookUrl=localStorage.getItem('sgv8_slackhook')||team.webhookUrl||'';
 // Pre-load defaults if not set
 // Slack webhook must be configured per-workspace in Settings — no hardcoded default (was flagged as an exposed secret).
 if(!team.members||!team.members.length) team.members=[
@@ -866,7 +866,7 @@ localStorage.setItem(TEAM_KEY,JSON.stringify(team));
   setSyncPill('syncing','Loading...');
   try{
     const[cr,dr,tr]=await Promise.all([ghRead('cases.json'),ghRead('doctors.json'),ghRead('team.json')]);
-    if((cr.content!==null&&!Array.isArray(cr.content))||(dr.content!==null&&!Array.isArray(dr.content)))throw new Error('Data file is not a list');cases=cr.content||[];doctors=dr.content||[];team=tr.content||{};_sha.cases=cr.sha;_sha.doctors=dr.sha;_sha.team=tr.sha;_sha.casesLoaded=true;
+    if((cr.content!==null&&!Array.isArray(cr.content))||(dr.content!==null&&!Array.isArray(dr.content)))throw new Error('Data file is not a list');cases=cr.content||[];doctors=dr.content||[];team=tr.content||{};team.webhookUrl=localStorage.getItem('sgv8_slackhook')||'';_sha.cases=cr.sha;_sha.doctors=dr.sha;_sha.team=tr.sha;_sha.casesLoaded=true;
     // Apply hardcoded defaults if team.json is empty
     // Slack webhook must be configured per-workspace in Settings — no hardcoded default (was flagged as an exposed secret).
     if(!team.members||!team.members.length) team.members=[
@@ -887,7 +887,7 @@ localStorage.setItem(TEAM_KEY,JSON.stringify(team));
     toast('⚠ Could not reach GitHub. Showing your last saved copy — please reload the page before adding new cases.');
   }
 }
-async function persistTeam(msg){localStorage.setItem(TEAM_KEY,JSON.stringify(team));if(!isConnected())return;if(!_sha.casesLoaded){toast('⚠ Saved locally only. Please reload the page to reconnect to GitHub.');return;}try{const res=await ghWrite('team.json',team,_sha.team,msg||'Update team');_sha.team=res.content.sha;}catch(e){toast('Team settings saved locally — GitHub sync failed');}}
+async function persistTeam(msg){localStorage.setItem(TEAM_KEY,JSON.stringify(team));if(!isConnected())return;if(!_sha.casesLoaded){toast('⚠ Saved locally only. Please reload the page to reconnect to GitHub.');return;}try{let res;try{const _tp=Object.assign({},team,{webhookUrl:''});res=await ghWrite('team.json',_tp,_sha.team,msg||'Update team');}catch(e1){const cur=await ghRead('team.json');_sha.team=cur.sha;const _tp2=Object.assign({},team,{webhookUrl:''});res=await ghWrite('team.json',_tp2,_sha.team,msg||'Update team');}_sha.team=res.content.sha;}catch(e){toast('Team settings saved locally — GitHub sync failed: '+((e&&e.message)||e));}}
 
 let _writeQueue=Promise.resolve();
 async function _persistCaseCore(c){
@@ -1587,7 +1587,7 @@ async function testGitHub(){const owner=document.getElementById('cfg_owner').val
 function saveGitHubCfg(){cfg={owner:document.getElementById('cfg_owner').value.trim(),repo:document.getElementById('cfg_repo').value.trim(),branch:document.getElementById('cfg_branch').value.trim()||'main',token:document.getElementById('cfg_token').value.trim()};localStorage.setItem('sgv8_cfg',JSON.stringify(cfg));closeSettings();loadCases();toast('✓ Connected to GitHub!');}
 function clearGitHub(){if(!confirm('Disconnect from GitHub?'))return;cfg={};localStorage.removeItem('sgv8_cfg');_sha={cases:null,doctors:null,team:null,casesLoaded:false};setSyncPill('local','Local mode');closeSettings();toast('Disconnected from GitHub');}
 
-function saveSlackCfg(){team.webhookUrl=document.getElementById('slack_webhook').value.trim();persistTeam('Update Slack webhook');const st=document.getElementById('slackStatus');st.className='cfg-status show ok';st.textContent='✓ Slack settings saved!';toast('✓ Slack settings saved');}
+function saveSlackCfg(){team.webhookUrl=document.getElementById('slack_webhook').value.trim();try{localStorage.setItem('sgv8_slackhook',team.webhookUrl);}catch(e){}persistTeam('Update Slack webhook');const st=document.getElementById('slackStatus');st.className='cfg-status show ok';st.textContent='✓ Slack settings saved!';toast('✓ Slack settings saved');}
 async function testSlack(){if(!team.webhookUrl){toast('Enter a webhook URL first');return;}await postToSlack('✅ Test message from the Surgical Guide Tracker — Slack notifications are connected!');toast('Test message sent (check your Slack channel)');}
 let _editingPwId=null;
 function renderTeamList(){
